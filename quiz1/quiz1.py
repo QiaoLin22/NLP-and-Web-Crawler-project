@@ -54,7 +54,7 @@ def norm_days(days: str) -> int:
 from typing import Dict, Tuple
 
 
-def extract_exam_schedule(url) -> Dict[int, Tuple[str, str, str]]:
+def extract_exam_schedule(url) -> Dict[Tuple[int, int], Tuple[str, str, str]]:
     r = requests.get(url)
     html = BeautifulSoup(r.text, 'html.parser')
     tbody = html.find('tbody')
@@ -66,9 +66,9 @@ def extract_exam_schedule(url) -> Dict[int, Tuple[str, str, str]]:
         m = TIME_DAYS.match(class_time)
         if m:
             time = norm_time(int(m.group(1)), int(m.group(2)))
-            days = m.group(3)
-            key = (time, days)
-            exam_day = tds[1].string.strip()
+            days = norm_days(m.group(3))
+            key  = (time, days)
+            exam_day  = tds[1].string.strip()
             exam_date = tds[2].string.strip()
             exam_time = tds[3].string.strip()
             schedule[key] = (exam_day, exam_date, exam_time)
@@ -80,4 +80,4 @@ if __name__ == '__main__':
     url = 'http://registrar.emory.edu/faculty-staff/exam-schedule/spring-2019.html'
     exam_schedule = extract_exam_schedule(url)
     for k, v in exam_schedule.items():
-        print(k,v)
+        print('%s : %s' % (k, v))
