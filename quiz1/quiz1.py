@@ -35,7 +35,7 @@ def norm_time(hour: str, minute: str) -> int:
 
 
 def norm_days(days: str) -> int:
-    DAYS = [('M', 0), ('TU', 1), ('W', 2), ('TH', 3), ('F', 4)]
+    DAYS = [('M', 0), ('T', 1), ('W', 2), ('H', 3), ('F', 4)]
     days = days.upper()
     b = ['0'] * 5
 
@@ -44,9 +44,9 @@ def norm_days(days: str) -> int:
             b[i] = '1'
             days = days.replace(d, '')
 
-    if 'T' in days:
+    if 'H' in days:
         b[1] = '1'
-        days = days.replace('T', '')
+        days = days.replace('H', '')
 
     return int(''.join(b), 2)
 
