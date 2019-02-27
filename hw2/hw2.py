@@ -19,25 +19,6 @@ with open(csv_file) as fin:
 
 
 def info(row):
-    # term is normalized to (year, term_id) (e.g., 5181 -> (2018, 1))
-    # term_id = 1: Spring, 6: Summer, 9: Fall
-    r = row[0]
-    term = (2000 + int((int(r) - 5000) / 10), int(r[-1]))
-
-    return {'term': term,
-            'subject': row[3].strip(),
-            'catalog': row[4].strip(),
-            'section': row[5].strip(),
-            'title': row[6].strip(),
-            'min_hours': int(row[8]),
-            'max_hours': int(row[9]),
-            'enrollment': int(row[11]),
-            'instructor': row[12].strip(),
-            'courseid': row[3].strip() + row[4].strip()
-            }
-
-
-def info(row):
     r = row[0]
     term = (2000 + int((int(r) - 5000) / 10), int(r[-1]))
     r = row[12].split(',')
