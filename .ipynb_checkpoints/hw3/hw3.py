@@ -178,7 +178,15 @@ def weight(email_dict):
                 domain = email[idx + 1:-2]  # to deal with the /n recount problem
                 w[domain] = w.get(domain, 0) + 1
         except:
+            length = len(w[k])
             KeyError
+        try:
+            for i in w[k]:
+
+                w[k][i] = w[k][i]/length
+        except:
+            KeyError
+
     return w
 
 MAP_FILE = '/Users/mycomputer/Desktop/qtm385data science/nlp-ranking/dat/bib_map.tsv'
@@ -189,9 +197,13 @@ TXT_DIR = '/Users/mycomputer/Desktop/qtm385data science/nlp-ranking/dat/txt/'
 email_dict = get_email_dict(TXT_DIR)
 
 change_email_dict(email_dict)
-EMAIL_FILE = '/Applications/PyCharm CE.app/Contents/bin/github.com/QiaoLin22/qtm385/.ipynb_checkpoints/hw3/email_map.tsv'
-
+EMAIL_FILE = '/Users/mycomputer/Desktop/qtm385data science/nlp-ranking/dat/email_map.tsv'
+email_dict2 = load_emails(EMAIL_FILE)
 INSTITUTE_FILE = '/Users/mycomputer/Desktop/qtm385data science/nlp-ranking/dat/us_institutes.tsv'
 institute_dict = load_institutes(INSTITUTE_FILE)
 print_emails(entry_dict, email_dict, EMAIL_FILE)
+
+weight = weight(email_dict2)
+print(weight)
+
 
