@@ -175,19 +175,20 @@ def weight(email_dict):
         try:
             for email in v.emails:
                 idx = email.rfind('@')
-                domain = email[idx + 1:-2]  # to deal with the /n recount problem
+                domain = email[idx + 1:]  # to deal with the /n recount problem
                 w[domain] = w.get(domain, 0) + 1
+                length = len(w)
+            wt={}
+            wt[k] = Counter(w)
+            try:
+                for i in wt[k]:
+                    wt[k][i] = wt[k][i] / length
+            except:
+                KeyError
         except:
-            length = len(w[k])
             KeyError
-        try:
-            for i in w[k]:
-
-                w[k][i] = w[k][i]/length
-        except:
-            KeyError
-
     return w
+
 
 MAP_FILE = '/Users/mycomputer/Desktop/qtm385data science/nlp-ranking/dat/bib_map.tsv'
 BIB_DIR = '/Users/mycomputer/Desktop/qtm385data science/nlp-ranking/bib/'
