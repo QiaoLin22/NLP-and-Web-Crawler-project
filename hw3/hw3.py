@@ -175,7 +175,7 @@ def weight(email_dict):
         try:
             for email in v.emails:
                 idx = email.rfind('@')
-                domain = email[idx + 1:]  # to deal with the /n recount problem
+                domain = email[idx + 1:-2]  # to deal with the /n recount problem
                 w[domain] = w.get(domain, 0) + 1
                 length = len(w)
             wt={}
