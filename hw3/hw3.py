@@ -182,7 +182,7 @@ def weight(email_dict):
             wt[k] = Counter(w)
             try:
                 for i in wt[k]:
-                    wt[k][i] = wt[k][i] / length
+                    wt[k][i] /= length
             except:
                 KeyError
         except:
