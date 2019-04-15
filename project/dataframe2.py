@@ -33,7 +33,7 @@ def getall(top_subreddit):
         print(year)
         print(month)
         print(i)
-        if year == '2018' and (month == '04' or month == '05' or month == '06' or month == '07' or month == '08'):
+        if (year == '2018' and (month == '01' or month == '02' or month == '03')) or (year == '2017' and (month == '06' or month == '07' or month == '08'or month == '09'or month == '10'or month == '11'or month == '12')):
             a = ""
             topics_dict["title"].append(submission.title)
             topics_dict["score"].append(submission.score)
@@ -50,6 +50,8 @@ def getall(top_subreddit):
             topics_dict["comment"].append(a)
         i += 1
 
+getall(top_subreddit)
+
 topics_data = pd.DataFrame(topics_dict)
 
 def get_date(created):
@@ -59,5 +61,10 @@ _timestamp = topics_data["created"].apply(get_date)
 
 topics_data = topics_data.assign(timestamp = _timestamp)
 
-topics_data[0:2]
-topics_data.loc[0]["comment"]
+#comment = topics_data["comment"]
+#comment.to_csv("dataframe2.csv",index =  None, header= True)
+
+title = topics_data["title"]
+title.to_csv("topic1.csv",index =  None, header= True)
+
+

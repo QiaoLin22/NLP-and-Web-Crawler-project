@@ -12,7 +12,7 @@ reddit = praw.Reddit(client_id='B7R_0Uz49aARVQ',
 
 subreddit = reddit.subreddit('movies')
 top_subreddit = subreddit.top()
-top_subreddit = subreddit.top(limit=50)
+top_subreddit = subreddit.top(limit=1000)
 
 topics_dict = { "title":[], \
                 "score":[], \
@@ -33,7 +33,7 @@ def getall(top_subreddit):
         print(year)
         print(month)
         print(i)
-        if year == '2018' and (month == '04' or month == '05' or month == '06' or month == '07' or month == '08'):
+        if year == '2017' and month == '11':
             a = ""
             topics_dict["title"].append(submission.title)
             topics_dict["score"].append(submission.score)
@@ -61,8 +61,9 @@ _timestamp = topics_data["created"].apply(get_date)
 
 topics_data = topics_data.assign(timestamp = _timestamp)
 
-topics_data
-topics_data["comment"]
 
-topics_data.to_csv("dataframe.csv",index =  None, header= True)
-topics_data.loc[0]
+
+
+topics_data.to_csv("2017_11.csv",index =  None, header= True)
+data = pd.read_csv('/Users/Tim/PycharmProjects/qiao/project/2017_7.csv', error_bad_lines=False);
+data
