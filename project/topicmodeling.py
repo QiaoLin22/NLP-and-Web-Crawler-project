@@ -24,7 +24,7 @@ from bokeh.io import output_notebook
 output_notebook()
 
 #%matplotlib inline
-data = pd.read_csv('topic2.csv', error_bad_lines=False);
+data = pd.read_csv('201803.csv', error_bad_lines=False);
 data_text = data[['title']]
 data_text['index'] = data_text.index
 raw_data = data_text
@@ -33,7 +33,6 @@ raw_data = data_text
 reindexed_data = raw_data['title']
 reindexed_data.index = raw_data['index']
 
-'''
 def get_top_n_words(n_top_words, count_vectorizer, text_data):
 
     vectorized_headlines = count_vectorizer.fit_transform(text_data.values)
@@ -90,9 +89,9 @@ ax.set_title('Headline word lengths');
 ax.set_xticks(range(1,14));
 ax.set_xlabel('Number of words');
 plt.show()
-'''
+
 small_count_vectorizer = CountVectorizer(stop_words='english', max_features=600)
-small_text_sample = reindexed_data.sample(n=150, random_state=0).values
+small_text_sample = reindexed_data.sample(n=20, random_state=0).values
 
 print('Headline before vectorization: {}'.format(small_text_sample[123]))
 
@@ -103,18 +102,12 @@ n_topics = 8
 lsa_model = TruncatedSVD(n_components=n_topics)
 lsa_topic_matrix = lsa_model.fit_transform(small_document_term_matrix)
 def get_keys(topic_matrix):
-    '''
-    returns an integer list of predicted topic
-    categories for a given topic matrix
-    '''
+
     keys = topic_matrix.argmax(axis=1).tolist()
     return keys
 
 def keys_to_counts(keys):
-    '''
-    returns a tuple of topic categories and their
-    accompanying magnitudes for a given list of keys
-    '''
+
     count_pairs = Counter(keys).items()
     categories = [pair[0] for pair in count_pairs]
     counts = [pair[1] for pair in count_pairs]
@@ -122,10 +115,7 @@ def keys_to_counts(keys):
 lsa_keys = get_keys(lsa_topic_matrix)
 lsa_categories, lsa_counts = keys_to_counts(lsa_keys)
 def get_top_n_words(n, keys, document_term_matrix, count_vectorizer):
-    '''
-    returns a list of n_topic strings, where each string contains the n most common
-    words in a predicted category, in order
-    '''
+
     top_word_indices = []
     for topic in range(n_topics):
         temp_vector_sum = 0
@@ -166,22 +156,20 @@ ax.set_xticks(lda_categories);
 ax.set_xticklabels(labels);
 ax.set_title('LDA topic counts');
 ax.set_ylabel('Number of headlines');
-#plt.show()
+plt.show()
 lda_model = LatentDirichletAllocation(n_components=n_topics, learning_method='online',
                                           random_state=0, verbose=0)
 lda_topic_matrix = lda_model.fit_transform(small_document_term_matrix)
 
 
-
+'''
 tsne_lsa_model = TSNE(n_components=2, perplexity=50, learning_rate=100,
                         n_iter=2000, verbose=1, random_state=0, angle=0.75)
 tsne_lsa_vectors = tsne_lsa_model.fit_transform(lsa_topic_matrix)
 
 # Define helper functions
 def get_mean_topic_vectors(keys, two_dim_vectors):
-    '''
-    returns a list of centroid vectors from each predicted topic category
-    '''
+
     mean_topic_vectors = []
     for t in range(n_topics):
         articles_in_that_topic = []
@@ -230,5 +218,5 @@ for t in range(n_topics):
     label = Label(x=lda_mean_topic_vectors[t][0], y=lda_mean_topic_vectors[t][1],
                   text=top_3_words_lda[t], text_color=colormap[t])
     plot.add_layout(label)
-
-show(plot)
+    show(plot)
+'''
