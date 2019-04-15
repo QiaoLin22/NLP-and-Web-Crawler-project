@@ -12,7 +12,7 @@ reddit = praw.Reddit(client_id='B7R_0Uz49aARVQ',
 
 subreddit = reddit.subreddit('movies')
 top_subreddit = subreddit.top()
-top_subreddit = subreddit.top(limit=1000)
+top_subreddit = subreddit.top(limit=50)
 
 topics_dict = { "title":[], \
                 "score":[], \
@@ -50,6 +50,8 @@ def getall(top_subreddit):
             topics_dict["comment"].append(a)
         i += 1
 
+getall(top_subreddit)
+
 topics_data = pd.DataFrame(topics_dict)
 
 def get_date(created):
@@ -59,5 +61,8 @@ _timestamp = topics_data["created"].apply(get_date)
 
 topics_data = topics_data.assign(timestamp = _timestamp)
 
-topics_data[0:2]
-topics_data.loc[0]["comment"]
+topics_data
+topics_data["comment"]
+
+topics_data.to_csv("dataframe.csv",index =  None, header= True)
+topics_data.loc[0]
