@@ -22,7 +22,7 @@ nltk.download()
 
 tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
 
-comment = pd.read_csv('/Users/Tim/PycharmProjects/qiao/project/dataframe1.csv')
+comment = pd.read_csv('/Users/Tim/PycharmProjects/qiao/project/comment1803.csv.csv')
 
 a = []
 for k in comment.values:

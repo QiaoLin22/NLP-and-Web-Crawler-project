@@ -10,22 +10,11 @@ except AttributeError:
 else:
     ssl._create_default_https_context = _create_unverified_https_context
 '''
-data = pd.read_csv('/Users/Tim/PycharmProjects/qiao/project/2017_8.csv', error_bad_lines=False);
-data = data["comment"]
-a = []
-for k in data.values:
-    c = str(k).split('&&')
-    for i in c:
-        a.append(i)
-df = pd.DataFrame({'col':a})
-df
+data = pd.read_csv('topic1.csv', error_bad_lines=False);
+data_text = data[['title']]
+data_text['index'] = data_text.index
+documents = data_text
 
-
-
-df['index'] = df.index
-documents2 = df
-
-pip install paramiko
 import gensim
 from gensim.utils import simple_preprocess
 from gensim.parsing.preprocessing import STOPWORDS
@@ -51,7 +40,7 @@ def preprocess(text):
             result.append(lemmatize_stemming(token))
     return result
 
-doc_sample = documents2[documents2['index'] == 0].values[0][0]
+doc_sample = documents[documents['index'] == 0].values[0][0]
 
 print('original document: ')
 words = []
@@ -61,25 +50,22 @@ print(words)
 print('\n\n tokenized and lemmatized document: ')
 print(preprocess(doc_sample))
 
-processed_docs = documents2['col'].map(preprocess)
+processed_docs = documents['title'].map(preprocess)
 print(processed_docs[:10])
 
 #BAG OF WORDS ON DATASET
 dictionary = gensim.corpora.Dictionary(processed_docs)
 count = 0
-
 for k, v in dictionary.iteritems():
     print(k, v)
     count += 1
     if count > 10:
         break
 
-
 dictionary.filter_extremes(no_below=15, no_above=0.5, keep_n=100000)
 bow_corpus = [dictionary.doc2bow(doc) for doc in processed_docs]
 bow_corpus[270]
 bow_doc_4310 = bow_corpus[270]
-bow_corpus
 
 for i in range(len(bow_doc_4310)):
     print("Word {} (\"{}\") appears {} time.".format(bow_doc_4310[i][0],
