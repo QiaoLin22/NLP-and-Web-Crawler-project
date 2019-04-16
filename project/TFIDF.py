@@ -10,8 +10,8 @@ except AttributeError:
 else:
     ssl._create_default_https_context = _create_unverified_https_context
 
-data = pd.read_csv('201803.csv', error_bad_lines=False);
-data_text = data[['title']]
+data = pd.read_csv('201707.csv', error_bad_lines=False);
+data_text = data[['comment']]
 data_text['index'] = data_text.index
 documents = data_text
 
@@ -50,7 +50,7 @@ print(words)
 print('\n\n tokenized and lemmatized document: ')
 print(preprocess(doc_sample))
 
-processed_docs = documents['title'].map(preprocess)
+processed_docs = documents['comment'].map(preprocess)
 print(processed_docs[:10])
 dictionary = gensim.corpora.Dictionary(processed_docs)
 count = 0
@@ -59,10 +59,10 @@ for k, v in dictionary.iteritems():
     count += 1
     if count > 10:
         break
-dictionary.filter_extremes(no_below=1, no_above=0.5, keep_n=10000)
+dictionary.filter_extremes(no_below=10, no_above=0.5, keep_n=100000)
 bow_corpus = [dictionary.doc2bow(doc) for doc in processed_docs]
-bow_corpus[10]
-print(bow_corpus[10])
+
+bow_doc_4310 = bow_corpus[22]
 from gensim import corpora, models
 tfidf = models.TfidfModel(bow_corpus)
 corpus_tfidf = tfidf[bow_corpus]
@@ -71,13 +71,12 @@ from pprint import pprint
 for doc in corpus_tfidf:
     pprint(doc)
     break
-lda_model_tfidf = gensim.models.LdaMulticore(corpus_tfidf, num_topics=8, id2word=dictionary, passes=2, workers=4)
+
+lda_model_tfidf = gensim.models.LdaMulticore(corpus_tfidf, num_topics=10, id2word=dictionary, passes=2, workers=4)
 for idx, topic in lda_model_tfidf.print_topics(-1):
     print('Topic: {} Word: {}'.format(idx, topic))
-for index, score in sorted(lda_model_tfidf[bow_corpus[10]], key=lambda tup: -1*tup[1]):
+for index, score in sorted(lda_model_tfidf[bow_corpus[22]], key=lambda tup: -1*tup[1]):
     print("\nScore: {}\t \nTopic: {}".format(score, lda_model_tfidf.print_topic(index, 10)))
 unseen_document = 'How a Pentagon deal became an identity crisis for Google'
 bow_vector = dictionary.doc2bow(preprocess(unseen_document))
 
-for index, score in sorted(lda_model_tfidf[bow_vector], key=lambda tup: -1*tup[1]):
-    print("Score: {}\t Topic: {}".format(score, lda_model_tfidf.print_topic(index, 5)))

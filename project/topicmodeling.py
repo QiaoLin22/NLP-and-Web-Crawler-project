@@ -24,14 +24,20 @@ from bokeh.io import output_notebook
 output_notebook()
 
 #%matplotlib inline
-data = pd.read_csv('201803.csv', error_bad_lines=False);
-data_text = data[['title']]
-data_text['index'] = data_text.index
-raw_data = data_text
+data = pd.read_csv('201710.csv', error_bad_lines=False);
+data_text = data[['comment']]
+
+a = []
+for k in data.values:
+    c = str(k).split('&&')
+    for i in c:
+        a.append(i)
+df = pd.DataFrame({'col':a})
+#data_text['index'] = data_text.index
 
 
-reindexed_data = raw_data['title']
-reindexed_data.index = raw_data['index']
+reindexed_data = df['col']
+#reindexed_data.index = raw_data['index']
 
 def get_top_n_words(n_top_words, count_vectorizer, text_data):
 
@@ -62,7 +68,7 @@ ax.set_xticklabels(words, rotation='vertical');
 ax.set_title('Top words in headlines dataset (excluding stop words)');
 ax.set_xlabel('Word');
 ax.set_ylabel('Number of occurences');
-#plt.show()
+plt.show()
 
 tagged_headlines = [TextBlob(reindexed_data[i]).pos_tags for i in range(reindexed_data.shape[0])]
 
@@ -91,14 +97,14 @@ ax.set_xlabel('Number of words');
 plt.show()
 
 small_count_vectorizer = CountVectorizer(stop_words='english', max_features=600)
-small_text_sample = reindexed_data.sample(n=20, random_state=0).values
+small_text_sample = reindexed_data.sample(n=10, random_state=0).values
 
-print('Headline before vectorization: {}'.format(small_text_sample[123]))
+print('Headline before vectorization: {}'.format(small_text_sample[9]))
 
 small_document_term_matrix = small_count_vectorizer.fit_transform(small_text_sample)
 
-print('Headline after vectorization: \n{}'.format(small_document_term_matrix[123]))
-n_topics = 8
+print('Headline after vectorization: \n{}'.format(small_document_term_matrix[9]))
+n_topics = 6
 lsa_model = TruncatedSVD(n_components=n_topics)
 lsa_topic_matrix = lsa_model.fit_transform(small_document_term_matrix)
 def get_keys(topic_matrix):
@@ -114,6 +120,8 @@ def keys_to_counts(keys):
     return (categories, counts)
 lsa_keys = get_keys(lsa_topic_matrix)
 lsa_categories, lsa_counts = keys_to_counts(lsa_keys)
+
+
 def get_top_n_words(n, keys, document_term_matrix, count_vectorizer):
 
     top_word_indices = []
@@ -121,14 +129,22 @@ def get_top_n_words(n, keys, document_term_matrix, count_vectorizer):
         temp_vector_sum = 0
         for i in range(len(keys)):
             if keys[i] == topic:
+                print(temp_vector_sum)
                 temp_vector_sum += document_term_matrix[i]
+        a = temp_vector_sum
+
+        if isinstance(temp_vector_sum, int):
+            continue
+
         temp_vector_sum = temp_vector_sum.toarray()
         top_n_word_indices = np.flip(np.argsort(temp_vector_sum)[0][-n:],0)
         top_word_indices.append(top_n_word_indices)
+
     top_words = []
     for topic in top_word_indices:
         topic_words = []
         for index in topic:
+
             temp_word_vector = np.zeros((1,document_term_matrix.shape[1]))
             temp_word_vector[:,index] = 1
             the_word = count_vectorizer.inverse_transform(temp_word_vector)[0][0]
@@ -166,54 +182,40 @@ lda_topic_matrix = lda_model.fit_transform(small_document_term_matrix)
 tsne_lsa_model = TSNE(n_components=2, perplexity=50, learning_rate=100,
                         n_iter=2000, verbose=1, random_state=0, angle=0.75)
 tsne_lsa_vectors = tsne_lsa_model.fit_transform(lsa_topic_matrix)
-
 # Define helper functions
 def get_mean_topic_vectors(keys, two_dim_vectors):
-
     mean_topic_vectors = []
     for t in range(n_topics):
         articles_in_that_topic = []
         for i in range(len(keys)):
             if keys[i] == t:
                 articles_in_that_topic.append(two_dim_vectors[i])
-
         articles_in_that_topic = np.vstack(articles_in_that_topic)
         mean_article_in_that_topic = np.mean(articles_in_that_topic, axis=0)
         mean_topic_vectors.append(mean_article_in_that_topic)
     return mean_topic_vectors
-
-
 colormap = np.array([
     "#1f77b4", "#aec7e8", "#ff7f0e", "#ffbb78", "#2ca02c",
     "#98df8a", "#d62728", "#ff9896", "#9467bd", "#c5b0d5",
     "#8c564b", "#c49c94", "#e377c2", "#f7b6d2", "#7f7f7f",
     "#c7c7c7", "#bcbd22", "#dbdb8d", "#17becf", "#9edae5" ])
 colormap = colormap[:n_topics]
-
-
 tsne_lda_model = TSNE(n_components=2, perplexity=50, learning_rate=100,
                         n_iter=2000, verbose=1, random_state=0, angle=0.75)
 tsne_lda_vectors = tsne_lda_model.fit_transform(lda_topic_matrix)
-
 top_3_words_lda = get_top_n_words(3, lda_keys, small_document_term_matrix, small_count_vectorizer)
 lda_mean_topic_vectors = get_mean_topic_vectors(lda_keys, tsne_lda_vectors)
-
 plot = figure(title="t-SNE Clustering of {} LDA Topics".format(n_topics), plot_width=700, plot_height=700)
 plot.scatter(x=tsne_lda_vectors[:,0], y=tsne_lda_vectors[:,1], color=colormap[lda_keys])
-
 for t in range(n_topics):
     label = Label(x=lda_mean_topic_vectors[t][0], y=lda_mean_topic_vectors[t][1],
                   text=top_3_words_lda[t], text_color=colormap[t])
     plot.add_layout(label)
-
 show(plot)
-
 top_3_words_lda = get_top_n_words(3, lda_keys, small_document_term_matrix, small_count_vectorizer)
 lda_mean_topic_vectors = get_mean_topic_vectors(lda_keys, tsne_lda_vectors)
-
 plot = figure(title="t-SNE Clustering of {} LDA Topics".format(n_topics), plot_width=700, plot_height=700)
 plot.scatter(x=tsne_lda_vectors[:,0], y=tsne_lda_vectors[:,1], color=colormap[lda_keys])
-
 for t in range(n_topics):
     label = Label(x=lda_mean_topic_vectors[t][0], y=lda_mean_topic_vectors[t][1],
                   text=top_3_words_lda[t], text_color=colormap[t])
