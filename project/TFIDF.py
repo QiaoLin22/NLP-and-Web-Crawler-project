@@ -21,6 +21,7 @@ df
 df['index'] = df.index
 documents = df
 '''
+<<<<<<< HEAD
 data = pd.read_csv('/Users/Tim/PycharmProjects/qiao/project/2017_8.csv', error_bad_lines=False);
 data = data["comment"]
 data.head()
@@ -33,6 +34,12 @@ df = pd.DataFrame({'col':a})
 df
 
 
+=======
+data = pd.read_csv('201803.csv', error_bad_lines=False);
+data_text = data[['title']]
+data_text['index'] = data_text.index
+documents = data_text
+>>>>>>> 58fd238b6a723161c53792ddb2904ac5f27b1c61
 
 df['index'] = df.index
 documents = df
