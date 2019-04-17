@@ -112,7 +112,7 @@ except AttributeError:
 else:
     ssl._create_default_https_context = _create_unverified_https_context
 
-data = pd.read_csv('/Users/Tim/PycharmProjects/qiao/project/201707.csv', error_bad_lines=False);
+data = pd.read_csv('/Users/Tim/PycharmProjects/qiao/project/201810.csv', error_bad_lines=False);
 data_text = data[['comment']]
 data_text['index'] = data_text.index
 documents = data_text
@@ -164,10 +164,10 @@ for k, v in dictionary.iteritems():
     count += 1
     if count > 10:
         break
-dictionary.filter_extremes(no_below=5, no_above=1, keep_n=100000)
+dictionary.filter_extremes(no_below=5, no_above=0.5, keep_n=100000)
 bow_corpus = [dictionary.doc2bow(doc) for doc in processed_docs]
 
-bow_doc_4310 = bow_corpus[22]
+bow_doc_4310 = bow_corpus[10]
 from gensim import corpora, models
 tfidf = models.TfidfModel(bow_corpus)
 corpus_tfidf = tfidf[bow_corpus]
@@ -177,7 +177,7 @@ for doc in corpus_tfidf:
     pprint(doc)
     break
 
-lda_model_tfidf = gensim.models.LdaMulticore(corpus_tfidf, num_topics=10, id2word=dictionary, passes=2, workers=4)
+lda_model_tfidf = gensim.models.LdaMulticore(corpus_tfidf, num_topics=5, id2word=dictionary, passes=2, workers=4)
 lda_model_tfidf.show_topics(10, num_words=10, formatted=False)
 
 
@@ -190,11 +190,11 @@ name_dict = {   0: "topic1", # 1 on the chart
                 2: "topic3",  # 3 on the chart
                 3: "topic4", # 1 on the chart
                 4: "topic5",    # 2 on the chart
-                5: "topic6",  # 3 on the chart
-                6: "topic7", # 1 on the chart
-                7: "topic8",    # 2 on the chart
-                8: "topic9",  # 3 on the chart
-                9: "topic10",  # 3 on the chart
+                # 5: "topic6",  # 3 on the chart
+                # 6: "topic7", # 1 on the chart
+                # 7: "topic8",    # 2 on the chart
+                # 8: "topic9",  # 3 on the chart
+                # 9: "topic10",  # 3 on the chart
             }
 
 for_viz = {}
@@ -204,7 +204,7 @@ viz_data = viz.topic_info
 viz_data['relevance'] = lambda_ * viz_data['logprob'] + (1 - lambda_) * viz_data['loglift']
 # plot the terms
 plt.rcParams['figure.figsize'] = [20, 11]
-fig, ax_ = plt.subplots(nrows=1, ncols=10)
+fig, ax_ = plt.subplots(nrows=1, ncols=5)
 ax = ax_.flatten()
 for j in range(lda_model_tfidf.num_topics):
     df = viz.topic_info[viz.topic_info.Category=='Topic'+str(j+1)].sort_values(by='relevance', ascending=False).head(30)
@@ -220,17 +220,23 @@ for j in range(lda_model_tfidf.num_topics):
     ax[j].tick_params(axis='y', labelsize=13)
 plt.show()
 
-df = viz.topic_info[viz.topic_info.Category=='Topic'+str(1+1)].sort_values(by='relevance', ascending=False).head(30)
-df.set_index(df['Term'], inplace=True)
-sns.barplot(y="Term", x="Freq",  data=df, ax=ax[1])
-sns.set_style({"axes.grid": False})
 
-ax[1].set_xlim([df['Freq'].min()-1, df['Freq'].max()+1])
-ax[1].set_ylabel('')
-ax[1].set_title(name_dict[1], size=15)
-ax[1].tick_params(axis='y', labelsize=13)
+scored = lda_model_tfidf[bow_corpus]
+topic_prob = map(lambda x: max(x, key=lambda item: item[1]), scored)
+scored_reviews = pd.DataFrame(zip(processed_docs, topic_prob), columns=['Review', 'Main_Topic'])
+scored_reviews[['Topic', 'Prob']] = scored_reviews['Main_Topic'].apply(pd.Series)
+scored_reviews['Topic Name'] = scored_reviews['Topic'].map(name_dict)
+
+df = scored_reviews['Topic Name'].value_counts(normalize=True)
+
+plt.rcParams['axes.facecolor'] = 'white'
+ax = df.plot(kind='barh', figsize=[8,6], title='Reviews Per Category', color='#33A5D3')
+
+# highlight = 'Customer Complaints'
+# pos = df.index.get_loc(highlight)
+
+# ax.patches[pos].set_facecolor('#aa3333')
 plt.show()
-
 
 '''
 
