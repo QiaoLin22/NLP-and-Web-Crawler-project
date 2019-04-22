@@ -1,7 +1,7 @@
 import json
 
 
-def hw4_handler(event, context):
+def hw4_handler(event):
     from bs4 import BeautifulSoup
     import requests
     from typing import Dict, Tuple
@@ -118,8 +118,8 @@ def hw4_handler(event, context):
             print(exam_schedule.get(key, None))
 
     id = event['course']
-    html_dir = 'html/'
     url_exam = 'http://registrar.emory.edu/faculty-staff/exam-schedule/spring-2019.html'
     url_class = 'http://atlas.college.emory.edu/class-schedules/spring-2019.php'
 
     return print_exam_schedule([id])
+
