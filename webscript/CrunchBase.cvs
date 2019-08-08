@@ -1,0 +1,438 @@
+,funding type,Categories,CB Rank (Company),Estimated Revenue Range,Operating Status,Number of Employees,Funding Status,Total Funding Amount Currency (in USD),fund_date
+0,Series A,"Computer, Machine Learning, Manufacturing, Robotics, Software",550,,Active,251-500,Early Stage Venture,179000000.0,2018
+1,Series A,"Manufacturing, Robotics",653,Less than $1M,Active,11-50,Early Stage Venture,30242013.0,2015
+2,Series D,"Artificial Intelligence, Consumer Electronics, Machine Learning, Robotics",582,$10M to $50M,Closed,101-250,Late Stage Venture,182000000.0,2010
+3,Seed,"Artificial Intelligence, Autonomous Vehicles, Computer, Embedded Software, Machine Learning, Robotics, Software",793,Less than $1M,Active,11-50,Seed,7000000.0,2013
+4,Series E,"Artificial Intelligence, Enterprise Software, Machine Learning, Robotics",871,,Active,101-250,Late Stage Venture,121300000.0,2010
+5,Series A,"Artificial Intelligence, Machine Learning, Manufacturing, SaaS, Video","1,193",$1M to $10M,Active,11-50,Early Stage Venture,12000000.0,2017
+6,Series B,Artificial Intelligence,"1,845",,Active,101-250,Early Stage Venture,20200000.0,2013
+7,Series B,"Aerospace, Artificial Intelligence, CleanTech, Cloud Computing, Drone Management, Drones, Facilities Support Services, Machine Learning, Physical Security, SaaS","2,170",,Active,11-50,Early Stage Venture,23450000.0,2015
+8,Series C,"Artificial Intelligence, Consumer Electronics, Industrial Engineering, Machine Learning, Product Research, Robotics","2,355",$100M to $500M,Active,501-1000,Late Stage Venture,940000000.0,2012
+9,Series C,"Artificial Intelligence, Big Data, Bioinformatics, Machine Learning, Robotics","2,422",,Active,251-500,Late Stage Venture,574140000.0,2013
+10,Series A,"Artificial Intelligence, Automotive, Autonomous Vehicles, Machine Learning, Robotics, Transportation","2,383",$10M to $50M,Active,11-50,Early Stage Venture,20000000.0,2015
+11,Series C,"Analytics, Artificial Intelligence, Automotive, Big Data, Internet of Things, Machine Learning, Manufacturing, Robotics, SaaS","2,489",$1M to $10M,Active,51-100,Late Stage Venture,59917000.0,2012
+12,Series B,"Artificial Intelligence, Consumer Electronics, Machine Learning, Robotics","2,800",$1M to $10M,Active,11-50,Early Stage Venture,72699999.0,2012
+13,Series C,"Biotechnology, Health Care, Medical Device","3,263",$1M to $10M,Active,11-50,Late Stage Venture,73667993.0,2013
+14,Series A,"Artificial Intelligence, Hardware, Machine Learning, National Security, Robotics","3,119",$1M to $10M,Active,101-250,Early Stage Venture,23144999.0,2015
+15,Series A,"Artificial Intelligence, Cloud Computing, Computer, Machine Learning, Network Security, Robotics, Software","3,072",,Active,501-1000,Early Stage Venture,130000000.0,2015
+16,Venture - Series Unknown,"Artificial Intelligence, Biotechnology, Health Care, Internet of Things, Machine Learning, Manufacturing, Robotics, Software","3,267",,Active,101-250,,129912589.0,2014
+17,Undisclosed,"Artificial Intelligence, Human Computer Interaction, Machine Learning, Neuroscience","1,234",$10M to $50M,Active,51-100,,67000000.0,2015
+18,Venture - Series Unknown,"Artificial Intelligence, Machine Learning, Robotics","3,533",,Active,51-100,,122000000.0,2010
+19,Series B,"Artificial Intelligence, Cloud Data Services, Drones, Machine Learning, Robotics, Software","3,386",$1M to $10M,Active,11-50,Early Stage Venture,46570000.0,2013
+20,Series B,"E-Commerce, Information Technology, Machine Learning, Robotics, Supply Chain Management","3,582",,Active,11-50,Early Stage Venture,34316130.0,2014
+21,Series A,"Autonomous Vehicles, Electric Vehicle, Machine Learning, Robotics","3,591",$1M to $10M,Active,51-100,Early Stage Venture,23250000.0,2015
+22,Venture - Series Unknown,"Artificial Intelligence, Automotive, Autonomous Vehicles, Logistics, Machine Learning, Robotics, Software","4,296",,Closed,11-50,M&A,77000000.0,2015
+23,Pre-Seed,"Computer, Enterprise Software, Human Resources, Industrial Automation, Information Services, Information Technology, Machine Learning, Robotics","4,708",,Active,11-50,Seed,680000.0,2018
+24,Seed,"Artificial Intelligence, Autonomous Vehicles, Computer Vision, Enterprise Software, Machine Learning, Outsourcing","4,832",$1M to $10M,Active,11-50,Seed,2470000.0,2015
+25,Secondary Market,"Artificial Intelligence, Autonomous Vehicles, Internet of Things, Machine Learning, Robotics","5,010",,Active,51-100,Early Stage Venture,140000000.0,2017
+26,Series C,"Artificial Intelligence, Automotive, Autonomous Vehicles, Computer Vision, Machine Learning, Security","5,071",,Active,51-100,Late Stage Venture,69400000.0,2007
+27,Series B,"Artificial Intelligence, Business Intelligence, Enterprise Software, Mobile Apps, SaaS, Smart Building","5,241",,Active,51-100,M&A,19847000.0,2013
+28,Series A,"Artificial Intelligence, Industrial Manufacturing, Machine Learning, Manufacturing, Robotics","6,173",,Active,,Early Stage Venture,3700000.0,None
+29,Series B,"Autonomous Vehicles, E-Commerce, Electronics, Information Technology, Manufacturing, Robotics","6,036",,Active,251-500,Early Stage Venture,1032148855.0,2016
+30,Seed,Robotics,"6,897",,Active,,Seed,9106271.0,2018
+31,Grant,"Artificial Intelligence, Industrial Automation, Machine Learning, Robotics, Software","6,059",,Active,51-100,,5800000.0,2015
+32,Seed,"Artificial Intelligence, CRM, Human Resources, Information Technology, Machine Learning, Robotics, SaaS, Software","5,235",,Active,11-50,Seed,3386249.0,2017
+33,Series A,"Artificial Intelligence, Industrial, Machine Learning, Power Grid, Robotics","7,004",$1M to $10M,Active,51-100,Early Stage Venture,9000000.0,2016
+34,Series A,"Artificial Intelligence, Computer Vision, Drones, Machine Learning, Robotics","7,082",,Active,11-50,Early Stage Venture,25000000.0,2015
+35,Seed,"Apps, Artificial Intelligence, Autonomous Vehicles, Infrastructure, Internet of Things, Machine Learning, Mapping Services, Public Transportation, SaaS, Transportation","6,957",,Active,51-100,Seed,3900000.0,2016
+36,Series A,"Artificial Intelligence, Robotics, Software","7,191",,Active,11-50,Early Stage Venture,13300000.0,2015
+37,Convertible Note,"Computer Vision, Consumer Electronics, Hardware, Machine Learning, Manufacturing, Robotics","8,068",Less than $1M,Active,1-10,Seed,3360354.0,2014
+38,Venture - Series Unknown,"Biotechnology, Electronics, Industrial Engineering, Information Technology, Machine Learning, Manufacturing, Robotics","8,238",,Active,11-50,,34637769.0,2009
+39,Venture - Series Unknown,"Artificial Intelligence, Audio, Children, Machine Learning, Natural Language Processing, Smart Home, Speech Recognition, Wearables","8,843",Less than $1M,Active,11-50,,5470000.0,2013
+40,Venture - Series Unknown,"Information Technology, Intelligent Systems, Robotics","9,047",,Active,1-10,,3465813.0,2015
+42,Series A,"Agriculture, Analytics, Image Recognition, Robotics","8,249",,Active,1-10,M&A,22420781.0,2012
+43,Seed,"AgTech, Farming, Machine Learning, Robotics","9,493",$1M to $10M,Active,1-10,Seed,2300000.0,2018
+44,Series A,"Artificial Intelligence, Machine Learning, Robotics, Wearables","9,456",,Active,11-50,Early Stage Venture,23049996.0,2016
+45,Series A,"Human Computer Interaction, Industrial Automation, Machine Learning, Robotics, Wearables","10,016",,Active,11-50,Early Stage Venture,6817778.0,2017
+46,Series B,"Artificial Intelligence, Autonomous Vehicles, Machine Learning, Robotics, Security","9,933",$1M to $10M,Active,11-50,Early Stage Venture,53300000.0,2016
+47,Series A,"Artificial Intelligence, Food and Beverage, Machine Learning, Robotics","10,173",,Active,,Early Stage Venture,3700000.0,None
+48,Seed,"Chemical, Industrial","10,381",,Active,,Seed,5000000.0,2017
+49,Seed,"Artificial Intelligence, Consumer Electronics, Hardware, Machine Learning, Motion Capture, Robotics, Software, Video, Wearables","10,439",Less than $1M,Active,11-50,Seed,6000000.0,2015
+50,Venture - Series Unknown,"Artificial Intelligence, Hardware, Robotics","10,047",$1M to $10M,Active,11-50,,10000000.0,2014
+51,Seed,"Artificial Intelligence, Automotive, Autonomous Vehicles, Hardware, Last Mile Transportation, Machine Learning, Robotics, Software, Transportation","10,665",,Active,1-10,M&A,2220000.0,2015
+52,Series A,"Artificial Intelligence, Industrial Manufacturing, Machine Learning, Robotics","10,443",,Active,11-50,Early Stage Venture,9518074.0,2014
+53,Series A,"Artificial Intelligence, Computer Vision, E-Commerce, Internet, Machine Learning, Robotics","11,487",,Active,11-50,Early Stage Venture,10000000.0,2014
+54,Series A,"Analytics, Artificial Intelligence, Big Data, Information Technology, Machine Learning, Robotics, Software","11,169",,Active,101-250,Early Stage Venture,12000000.0,2015
+55,Series A,"Analytics, Artificial Intelligence, Enterprise Software, Health Care, Machine Learning, Natural Language Processing, Predictive Analytics, Real Time, Robotics, Speech Recognition, Virtual Assistant","11,176",,Active,11-50,Early Stage Venture,1500000.0,2016
+56,Pre-Seed,"Cyber Security, Network Security, Robotics","10,855",,Active,11-50,Seed,841762.0,2017
+57,Series A,"Drones, Machine Learning, Robotics","10,880",$1M to $10M,Active,11-50,Early Stage Venture,21269389.0,2014
+58,Seed,"Agriculture, Farming, Machine Learning, Robotics","11,996",,Active,11-50,Seed,6500000.0,2019
+59,Series A,"Artificial Intelligence, Automotive, Big Data, Drones, Machine Learning, Robotics","11,982",,Active,1-10,Early Stage Venture,15000000.0,2014
+60,Seed,"Artificial Intelligence, Biotechnology, Machine Learning, Robotics, Therapeutics","11,612",$1M to $10M,Active,11-50,Seed,3660000.0,2012
+61,Seed,"Artificial Intelligence, Health Care, Human Computer Interaction, Machine Learning, Robotics, Software","12,310",,Active,1-10,Seed,2825000.0,2017
+62,Grant,"3D Technology, Artificial Intelligence, Augmented Reality, Machine Learning, Mobile Apps, Robotics, Software, Virtual Reality","12,595",Less than $1M,Active,11-50,Seed,6450000.0,2015
+63,Series A,"3D Technology, Augmented Reality, Computer Vision, Human Computer Interaction, Machine Learning, Robotics, Virtual Reality","12,947",,Active,51-100,Early Stage Venture,26700000.0,2013
+64,Seed,Robotics,"13,024",,Active,,Seed,4800000.0,2018
+65,Seed,"Artificial Intelligence, Computer Vision, Hardware, Industrial Automation, Internet of Things, Machine Learning, Manufacturing, Quality Assurance, SaaS, Software","13,902",,Active,11-50,Seed,2056426.0,2015
+66,Series A,"Artificial Intelligence, Robotics","14,772",,Active,,Early Stage Venture,4334216.0,2016
+67,Series B,"Artificial Intelligence, Computer Vision, Machine Learning, Robotics","14,022",,Active,101-250,Early Stage Venture,171074965.0,2014
+68,Non-equity Assistance,"Machine Learning, Robotics, Software","15,158",Less than $1M,Active,1-10,,2000000.0,2015
+69,Convertible Note,"Artificial Intelligence, Autonomous Vehicles, Machine Learning, Robotics","15,652",$1M to $10M,Active,51-100,Seed,2572602.0,2017
+70,Series A,"Agriculture, Drones, Enterprise, Enterprise Software, Hardware, Machine Learning, Robotics, Sustainability, Water","17,280",,Active,11-50,Early Stage Venture,3704001.0,2015
+71,Grant,"Aerospace, Artificial Intelligence, Machine Learning, Robotics","18,532",,Active,11-50,,250000.0,2015
+72,Venture - Series Unknown,"Artificial Intelligence, Big Data, Information Technology, Machine Learning, Renewable Energy, Robotics","17,404",$1M to $10M,Active,1-10,,13066476.0,2004
+73,Venture - Series Unknown,"Computer Vision, Industrial Automation, Machine Learning, Mechanical Engineering, Robotics","17,243",,Active,,,3399998.0,2016
+74,Series D,"Agriculture, Analytics, Big Data, Farming, Robotics, Social Network","18,677",$10M to $50M,Active,101-250,Late Stage Venture,193900000.0,2014
+75,Seed,"Agriculture, AgTech, Artificial Intelligence, Farming, Machine Learning","19,609",$1M to $10M,Active,,Seed,2400000.0,2016
+76,Series A,"Artificial Intelligence, Cloud Computing, Robotics","21,154",,Active,,Early Stage Venture,1447534.0,2018
+77,Seed,"Artificial Intelligence, Cloud Computing, Industrial Automation, Industrial Manufacturing, Machine Learning, Predictive Analytics, Robotics","21,235",$1M to $10M,Active,1-10,Seed,2000000.0,2016
+78,Series B,"Industrial, Machine Learning, Robotics","20,790",$1M to $10M,Active,11-50,Early Stage Venture,32099121.0,2013
+79,Seed,"3D Technology, Information Technology, Manufacturing, Nanotechnology, Software","21,168",,Active,1-10,Seed,3300000.0,2017
+80,Seed,"Machine Learning, Product Design, Recycling, Robotics, Waste Management","21,586",$1M to $10M,Active,1-10,Seed,500000.0,2015
+81,Seed,"Artificial Intelligence, Cloud Computing, Cloud Data Services, Drone Management, Enterprise Software, Intelligent Systems, Machine Learning, Operating Systems, Predictive Analytics","21,083",,Active,11-50,Seed,3085847.0,2015
+82,Series C,"Analytics, Artificial Intelligence, Biotechnology, Machine Learning, Medical, Medical Device, Robotics","20,914",,Active,11-50,M&A,13500000.0,2005
+83,Series B,"Autonomous Vehicles, Developer APIs, Image Recognition, Machine Learning, Task Management","21,994",Less than $1M,Active,51-100,Early Stage Venture,22620000.0,2016
+84,Seed,"Android, Hardware, Robotics, Software","21,592",,Active,11-50,Seed,8012000.0,2012
+85,Angel,"Artificial Intelligence, EdTech, Education, Language Learning, Machine Learning, Robotics","21,679",,Active,1-10,Seed,575000.0,2017
+86,Seed,"Artificial Intelligence, Machine Learning, Robotics","22,392",Less than $1M,Active,51-100,Seed,2366711.0,2013
+87,Series B,"Artificial Intelligence, Machine Learning, Robotics","22,277",,Active,101-250,Early Stage Venture,29028553.0,2013
+88,Seed,"3D Technology, Artificial Intelligence, Computer Vision, Embedded Software, Facial Recognition, Information Technology, Machine Learning, Robotics, Sensor, Software","22,395",,Active,11-50,Seed,2521849.0,2017
+89,Grant,"Education, Machine Learning, Robotics","22,963",,Active,11-50,,18277024.0,2016
+90,Seed,"Hardware, Robotics, Software","22,959",Less than $1M,Active,1-10,Seed,520000.0,2014
+91,Series A,"Artificial Intelligence, Consumer Electronics, Information Technology, Internet, Machine Learning, Robotics","23,657",,Active,,Early Stage Venture,22600000.0,2016
+92,Seed,"3D Printing, Artificial Intelligence, Manufacturing, Robotics","24,723",,Active,1-10,Seed,478770.0,2015
+93,Venture - Series Unknown,"Artificial Intelligence, Computer Vision, Enterprise Software, Machine Learning","25,623",,Active,101-250,M&A,58000000.0,2008
+94,Series B,"Agriculture, Farming, Food and Beverage, Organic Food, Robotics","26,627",,Active,,Early Stage Venture,117500000.0,2015
+95,Seed,"Artificial Intelligence, Human Computer Interaction, Machine Learning, Robotics, Speech Recognition","11,948",,Active,1-10,Seed,250000.0,2018
+96,Angel,"Education, Internet of Things, Machine Learning, Robotics","27,720",,Active,11-50,Seed,300000.0,2012
+97,Seed,"Artificial Intelligence, Health Care, Machine Learning, Natural Language Processing, Robotics, Software","28,087",,Active,11-50,Seed,2000000.0,2018
+98,Series A,"3D Printing, Artificial Intelligence, Hardware, Machine Learning, Robotics, Software","26,983",$1M to $10M,Active,11-50,Early Stage Venture,6200000.0,2009
+99,Seed,"Agriculture, Machine Learning, Robotics","28,294",,Active,,Seed,1050000.0,2016
+100,Convertible Note,"Hardware, Machine Learning, Robotics, Software, Supply Chain Management, Warehousing","28,751",,Active,11-50,Seed,2600000.0,2016
+101,Series B,"Industrial, Internet of Things, Robotics, Software","28,575",$1M to $10M,Active,51-100,Early Stage Venture,47500000.0,2014
+102,Series A,"Artificial Intelligence, Autonomous Vehicles, Enterprise Software, Machine Learning, Robotics","29,972",,Active,51-100,Early Stage Venture,17893439.0,2016
+103,Pre-Seed,"Computer Vision, Industrial, Machine Learning, Robotics","31,105",,Active,1-10,Seed,1350000.0,2017
+104,Venture - Series Unknown,"Agriculture, Artificial Intelligence, Computer, Farming, Information Technology, Internet of Things, Machine Learning, Robotics, Software","31,994",,Active,,,3000000.0,2012
+105,Seed,"Artificial Intelligence, Developer APIs, Developer Platform, Developer Tools, Machine Learning, SaaS, Software","31,741",,Active,1-10,Seed,160000.0,2015
+106,Series A,"Artificial Intelligence, Intelligent Systems, Machine Learning, Robotics, Software","32,020",,Active,,Early Stage Venture,14909795.0,None
+107,Series A,"Artificial Intelligence, Drones, Machine Learning, Robotics, Software","33,330",,Active,11-50,Early Stage Venture,15200000.0,2006
+108,Series B,"Artificial Intelligence, Machine Learning, Robotics, Software","33,318",$1M to $10M,Active,51-100,Early Stage Venture,44000000.0,2014
+109,Angel,"Artificial Intelligence, Machine Learning, Robotics","33,708",,Active,1-10,Seed,844000.0,2016
+110,Seed,"Artificial Intelligence, Computer Vision, Machine Learning, Robotics","34,597",,Active,1-10,M&A,21500000.0,2015
+111,Grant,"Artificial Intelligence, Big Data, Gaming, Health Care, Health Diagnostics, Information Technology, Machine Learning, Medical Device, Rehabilitation, Software","35,859",,Active,11-50,Seed,336017.0,2016
+112,Series A,"Artificial Intelligence, Developer Platform, Developer Tools, Machine Learning, Operating Systems","39,028",,Active,11-50,M&A,13620000.0,2014
+113,Angel,"Computer Vision, Facial Recognition, Image Recognition, Machine Learning, Robotics","37,296",Less than $1M,Active,11-50,Seed,1586474.0,2012
+114,Seed,"Artificial Intelligence, Eyewear, Machine Learning, Medical, Medical Device","37,465",,Active,1-10,Seed,1200000.0,2018
+115,Seed,"Augmented Reality, Auto Insurance, Autonomous Vehicles, Big Data, Biometrics, Data Integration, Electronics, Insurance, Machine Learning, Robotics, Simulation, Virtual Reality","42,555",,Active,11-50,Seed,315671.0,2013
+116,Pre-Seed,"Analytics, Health Care, Information Technology, Machine Learning, Medical, Robotics, Software","38,283",,Active,,Seed,350000.0,2017
+117,Seed,"Industrial Automation, Machine Learning, Recruiting","38,612",,Active,,Seed,112478.0,2017
+118,Seed,"Augmented Reality, Human Computer Interaction, Robotics, Virtual Reality","36,194",,Active,1-10,Seed,257861.0,2017
+119,Seed,"Artificial Intelligence, Computer Vision, Health Care, Machine Learning, Robotics","38,150",,Active,1-10,Seed,1100000.0,2014
+120,Undisclosed,"Financial Services, FinTech, Gamification, Machine Learning, Robotics","40,710",,Active,1-10,,1670000.0,2013
+121,Seed,"Big Data, Internet of Things, Machine Learning","42,151",,Active,11-50,Seed,350000.0,2016
+122,Seed,"Artificial Intelligence, Computer, Software","41,110",,Active,1-10,Seed,500000.0,2015
+123,Venture - Series Unknown,Robotics,"41,617",,Active,,,1527767.0,None
+124,Non-equity Assistance,"Agriculture, AgTech, Artificial Intelligence, Big Data, Computer Vision, Farming, GreenTech, Machine Learning, Predictive Analytics, Robotics","43,026",,Active,11-50,,247000.0,2016
+125,Seed,AgTech,"43,428",,Active,1-10,Seed,711052.0,2016
+126,Venture - Series Unknown,"Agriculture, Artificial Intelligence, Computer, Machine Learning, Robotics","44,688",,Active,11-50,,13304.0,2016
+127,Series A,"Artificial Intelligence, Cloud Data Services, Drones, Environmental Consulting, Information Services, Machine Learning, Oil and Gas, Robotics, Sensor, Waste Management","42,904",,Active,1-10,Early Stage Venture,540000.0,2016
+128,Series A,"Consumer Electronics, Hardware, Internet of Things, Mobile, Robotics, Software","44,538",$1M to $10M,Active,51-100,Early Stage Venture,14061000.0,2012
+129,Seed,"Artificial Intelligence, Machine Learning, Robotics","44,308",,Active,11-50,Seed,293685.0,2018
+130,Venture - Series Unknown,"Analytics, Artificial Intelligence, Information Technology, Machine Learning, Robotics, Software","43,668",,Active,,,605449.0,None
+131,Seed,"Artificial Intelligence, Consumer Goods, Machine Learning, Manufacturing","47,280",,Active,11-50,Seed,150000.0,2018
+133,Series A,"Artificial Intelligence, Intelligent Systems, Machine Learning, Mechanical Engineering, Robotics","48,102",,Active,,Early Stage Venture,7200000.0,2014
+134,Series A,"Artificial Intelligence, Robotics","48,535",,Active,,Early Stage Venture,6721140.0,2015
+135,Seed,"Artificial Intelligence, Financial Services, Information Technology, Internet, Robotics","50,457",,Active,11-50,Seed,67877.0,2018
+136,Seed,"Artificial Intelligence, Machine Learning, Mobile Apps","51,869",,Active,11-50,Seed,6366.0,2016
+137,Grant,"Artificial Intelligence, Internet, Machine Learning, Robotics","54,162",Less than $1M,Active,,,1735397.0,2006
+138,Series B,"Machine Learning, Robotics","54,601",,Active,,Early Stage Venture,1492492.0,2013
+139,Grant,"Computer Vision, Education, Machine Learning, Natural Language Processing","56,888",Less than $1M,Active,,,1000000.0,None
+140,Pre-Seed,"Computer Vision, E-Commerce, Information Technology, Legal Tech, Machine Learning, Product Management, Ride Sharing, SaaS","59,798",,Active,1-10,Seed,10000.0,2018
+141,Seed,"Cosmetic Surgery, Machine Learning, Medical Device, Robotics","60,445",,Active,,Seed,1500000.0,None
+142,Series A,"Artificial Intelligence, Machine Learning, Robotics","60,274",,Active,,Early Stage Venture,2912056.0,2015
+143,Equity Crowdfunding,"Information Technology, Machine Learning","61,428",,Active,,,380626.0,2015
+144,Seed,"Artificial Intelligence, Machine Learning, Robotics","58,610",,Active,,Seed,1476973.0,2015
+145,Seed,"Electronics, Machine Learning, Robotics","62,471",,Closed,1-10,Seed,1010000.0,2014
+146,Seed,"Hardware, Machine Learning, Robotics, Smart Home, Software","63,965",,Active,1-10,Seed,,2017
+147,Series A,"Artificial Intelligence, Industrial Automation, Machine Learning, Robotics","64,298",,Active,,Early Stage Venture,18000000.0,2017
+148,Seed,"Automotive, Machine Learning, Robotics","60,971",$1M to $10M,Active,11-50,Seed,500000.0,2001
+149,Seed,"Artificial Intelligence, Information Technology, Software","66,534",,Active,1-10,Seed,3000.0,2017
+150,Series A,"Health Care, Health Diagnostics, Medical Device, Therapeutics","61,736",$1M to $10M,Active,11-50,Early Stage Venture,5700000.0,2016
+151,None,"Blockchain, Consulting, Financial Services, Internet, Market Research","71,120",,Active,1-10,,,None
+152,Pre-Seed,"Artificial Intelligence, Computer Vision, Machine Learning, Robotics, Sensor, Software","66,633",,Active,1-10,Seed,1050000.0,2018
+153,Seed,"Artificial Intelligence, Computer Vision, Information Technology, Machine Learning, Robotics, Software","72,433",,Active,1-10,Seed,,2019
+154,None,"Apps, Consumer Applications, Machine Learning, Mobile, Mobile Apps, Privacy, Robotics, Spam Filtering, Telecommunications","71,241",,Active,51-100,M&A,,2005
+155,Seed,"Artificial Intelligence, Computer, Software, Speech Recognition","70,929",$1M to $10M,Active,11-50,Seed,,2014
+156,None,"Artificial Intelligence, Cloud Data Services, Computer Vision, Embedded Systems, Machine Learning, Robotics, Sensor, Software","72,235",,Active,1-10,,,2017
+157,Grant,"Artificial Intelligence, Cyber Security, Information Technology, Robotics, Video","72,093",Less than $1M,Active,1-10,,42930.0,2015
+158,Grant,"Artificial Intelligence, Computer Vision, Embedded Systems, Machine Learning, Robotics","71,507",,Active,,Seed,62000.0,2017
+159,None,"Artificial Intelligence, Internet, Software","76,380",$1M to $10M,Active,101-250,,,2012
+160,Grant,"Analytics, Artificial Intelligence, Computer, Information Technology, Robotics","83,605",,Active,,,,2018
+161,Seed,"Artificial Intelligence, Food and Beverage, Hospitality, Machine Learning, Organic Food, Restaurants, Robotics","77,029",,Active,1-10,Seed,,2018
+162,Seed,"Analytics, Apps, Business Development, Information Technology, Robotics","73,805",,Active,,Seed,765000.0,2015
+163,None,"Artificial Intelligence, Machine Learning, Robotics","78,794",,Active,11-50,,,2012
+164,Seed,"Artificial Intelligence, Information Technology, Machine Learning, Robotics","75,694",,Active,11-50,Seed,10000.0,None
+165,Series A,"Artificial Intelligence, Logistics, Machine Learning, Robotics, Service Industry, Warehousing","80,761",$1M to $10M,Active,51-100,Early Stage Venture,,2014
+166,Seed,"3D Technology, Artificial Intelligence, Image Recognition, Machine Learning, Mobile, Robotics","70,487",$1M to $10M,Active,1-10,Seed,1100000.0,2009
+167,Undisclosed,"Augmented Reality, Autonomous Vehicles, Computer Vision, Drones, Hardware, Machine Learning, Robotics, Sensor, Virtual Reality","81,718",,Active,11-50,,,2017
+168,Seed,"Autonomous Vehicles, Big Data, Computer Vision, Machine Learning, Manufacturing, Robotics","83,865",,Active,1-10,Seed,,2015
+169,Seed,"Artificial Intelligence, Computer Vision, Machine Learning, Robotics, Software","84,217",,Active,11-50,Seed,,2018
+170,None,"Artificial Intelligence, CleanTech, Embedded Software, Indoor Positioning, Machine Learning, Navigation, Network Security, Operating Systems, Robotics, Software","83,833",,Active,11-50,,,2016
+171,None,"Artificial Intelligence, Blockchain, Cyber Security, FinTech, Information Technology, Lifestyle, Machine Learning, Retail, Robotics","84,610",,Active,11-50,,,2016
+172,None,"Artificial Intelligence, Internet of Things, Knowledge Management, Machine Learning, Mobile Devices, Robotics, Smart Home","85,380",,Active,11-50,,,2015
+173,Seed,"Artificial Intelligence, Broadcasting, Computer Vision, Machine Learning, Robotics","85,597",,Active,11-50,Seed,,2016
+174,Grant,"Education, Machine Learning, Robotics","80,625",,Active,,Seed,175000.0,2012
+175,Seed,"Artificial Intelligence, Cloud Computing, Machine Learning, Robotics","84,171",,Active,1-10,Seed,,2018
+176,Grant,"Artificial Intelligence, Machine Learning, Robotics","80,844",,Active,1-10,,358263.0,2008
+177,None,"Artificial Intelligence, Logistics, Machine Learning, Robotics, Supply Chain Management, Warehousing","86,646",,Active,11-50,,,None
+178,None,"Computer Vision, Enterprise Software, Robotics, Software, Virtual Workforce","88,735",,Active,11-50,,,2015
+179,Series A,"Artificial Intelligence, Machine Learning, Manufacturing, Medical Device, Robotics","82,019",,Active,,Early Stage Venture,1648630.0,None
+180,None,"Internet of Things, Logistics, SaaS, Software","91,922",,Active,11-50,,,2015
+181,None,"Artificial Intelligence, Machine Learning, Neuroscience","88,405",,Active,11-50,,,2014
+182,None,"Artificial Intelligence, Cloud Computing, Computer Vision, GPU, Internet, Language Learning, Machine Learning, Natural Language Processing, SaaS, Software","92,930",,Active,1-10,,,None
+183,Seed,"Artificial Intelligence, Drone Management, Fleet Management, Intelligent Systems, Internet of Things, Robotics","88,806",,Active,1-10,M&A,,2015
+184,Seed,"Artificial Intelligence, Assistive Technology, Communication Hardware, Health Care, Internet of Things, Machine Learning, Robotics","94,360",,Active,1-10,Seed,,2018
+185,Series A,"Artificial Intelligence, Hardware, Industrial Automation, Machine Learning, Operating Systems, Robotics","95,229",,Active,11-50,Early Stage Venture,,2016
+186,Seed,Robotics,"96,511",,Active,,Seed,,2017
+187,None,"Artificial Intelligence, Autonomous Vehicles, Blockchain, Cryptocurrency, Drones, Internet of Things, Machine Learning, Robotics","95,113",,Active,1-10,,,2017
+188,Pre-Seed,"AgTech, Environmental Engineering, Information Technology, Machine Learning, Robotics","96,658",,Active,1-10,Seed,,2018
+189,None,"Artificial Intelligence, Blockchain, Cloud Data Services, Information Technology, Machine Learning, Robotics","95,004",$1M to $10M,Active,11-50,,,2005
+190,Series A,"Artificial Intelligence, Machine Learning, Robotics","98,436",,Active,1-10,Early Stage Venture,,2015
+191,Angel,"Artificial Intelligence, Construction, Internet of Things, Machine Learning, Robotics","98,401",,Active,1-10,Seed,,2016
+192,Seed,"Agriculture, AgTech, Artificial Intelligence, Blockchain, CleanTech, Communities, Data Integration, Data Mining, Environmental Engineering, FinTech, Green Building, GreenTech, Hydroponics, Industrial Automation, Information Technology, Organic, Organic Food, Robotics, Sustainability","98,870",,Active,1-10,Seed,,2017
+193,None,"Artificial Intelligence, Education, Information Technology, Machine Learning, Robotics, Software","99,296",,Active,1-10,,,2017
+194,Seed,"Machine Learning, Robotics, Software","84,013",,Active,,Seed,115000.0,None
+195,None,"Artificial Intelligence, Augmented Reality, Computer Vision, Human Computer Interaction, Machine Learning, Robotics","101,499",,Active,11-50,,,2016
+196,Series A,"Artificial Intelligence, Augmented Reality, Big Data, Blockchain, FinTech, IaaS, Intelligent Systems, Internet of Things, Machine Learning, Natural Language Processing, Operating Systems, PaaS, Predictive Analytics, Robotics, SaaS, Virtual Reality","99,211",,Active,11-50,Early Stage Venture,,2008
+197,Seed,"Artificial Intelligence, Machine Learning, Mapping Services, Natural Resources, Oil and Gas, Robotics","103,461",,Active,,Seed,,2014
+198,None,"Artificial Intelligence, Big Data, Information Technology, Internet of Things, Machine Learning, Robotics","103,048",,Active,101-250,,,2018
+199,None,"Analytics, Artificial Intelligence, Predictive Analytics, Robotics, Software","105,429",$1M to $10M,Active,11-50,,,2009
+200,Product Crowdfunding,"Artificial Intelligence, Communication Hardware, Computer Vision, Electronics, Field-Programmable Gate Array (FPGA), Hardware, Machine Learning, Real Time, Robotics, Security, Wireless","104,562",,Active,1-10,Seed,,2014
+201,None,"Analytics, Big Data, Information Services, Information Technology, Robotics","107,343",$1M to $10M,Active,11-50,,,2013
+202,None,"Information Technology, Machine Learning, Robotics, Software, Video","107,989",$10M to $50M,Active,51-100,,,1983
+203,None,"Analytics, Information Technology, Machine Learning, Robotics, Software","105,105",,Active,,,,None
+204,Seed,"Artificial Intelligence, Autonomous Vehicles, Blockchain, Machine Learning, Robotics, Software, Transportation","105,651",,Active,1-10,Seed,,2017
+205,Seed,"Computer Vision, Hardware, Machine Learning, Manufacturing, Robotics, STEM Education","95,848",,Active,1-10,Seed,30000.0,2015
+206,None,"Artificial Intelligence, Big Data, Business Intelligence, CRM, Data Visualization, Industrial Automation, Internet of Things, Machine Learning, Predictive Analytics, Robotics","109,012",$1M to $10M,Active,101-250,,,2002
+207,None,"Artificial Intelligence, Big Data, Business Intelligence, Data Integration, Data Mining, Data Visualization, Database, Enterprise Software, Internet of Things, Machine Learning, Robotics, Sharing Economy, Software Engineering","110,200",,Active,1001-5000,,,2017
+208,Seed,"Artificial Intelligence, Autonomous Vehicles, Clean Energy, FinTech, Internet of Things, Location Based Services, Predictive Analytics, Renewable Energy, Robotics, Wireless","110,521",$1M to $10M,Active,11-50,Seed,,2013
+209,Grant,"Automotive, CleanTech, Energy Management, Energy Storage, Power Grid, Renewable Energy, Robotics","112,996",Less than $1M,Active,11-50,,,2015
+210,None,"Artificial Intelligence, Information Technology, Internet, Machine Learning, Robotics, Transportation","105,721",Less than $1M,Active,11-50,,,2015
+211,None,"Artificial Intelligence, Automotive, Computer Vision, Image Recognition, Machine Learning, Robotics, Software","110,497",$1M to $10M,Active,1-10,,,2013
+212,None,"Artificial Intelligence, Information Technology, Robotics","114,479",Less than $1M,Active,1-10,,,2014
+213,None,"Artificial Intelligence, Autonomous Vehicles, Drones, Enterprise Software, Hardware, Mobile, Recruiting, Robotics, SaaS, Software, Venture Capital, Virtual Reality","116,505",Less than $1M,Active,11-50,,,2009
+214,Seed,"Artificial Intelligence, Machine Learning, Robotics, Security","116,515",Less than $1M,Active,1-10,Seed,,2012
+215,None,"Artificial Intelligence, Information Technology, Machine Learning, Robotics, Software","116,381",,Active,11-50,,,2016
+216,None,"Artificial Intelligence, Machine Learning, Robotics","115,855",,Active,1-10,,,2019
+217,Seed,"Artificial Intelligence, Machine Learning, Robotics","113,305",,Active,1-10,Seed,,2016
+218,None,"Artificial Intelligence, Autonomous Vehicles, Machine Learning, Robotics, Sporting Goods","115,024",Less than $1M,Active,1-10,,,2016
+219,Non-equity Assistance,"Analytics, Biometrics, Health Care, Information Technology, Personal Health, Robotics","120,242",,Active,1-10,,,2017
+220,None,"Machine Learning, Robotics, Software","116,039",Less than $1M,Active,1-10,,,2008
+221,None,"Analytics, Industrial Automation, Machine Learning, Robotics, Software","119,308",,Closed,11-50,,,2011
+222,None,"Association, Consulting, Information Technology, Non Profit","119,559",$1M to $10M,Active,11-50,,,2017
+223,Grant,"Artificial Intelligence, Machine Learning, Robotics, Software","111,383",,Active,,,18601.0,2016
+224,Seed,"3D Technology, Augmented Reality, Industrial Automation, Machine Learning, PC Games, Robotics, Software, Video Games, Virtual Reality","120,531",Less than $1M,Active,1-10,Seed,,2014
+225,None,"Artificial Intelligence, Education, Location Based Services, Robotics, Software","121,439",$1M to $10M,Active,1-10,,,None
+226,None,"Machine Learning, Mechanical Engineering, Professional Services, Robotics","95,098",,Active,,,,2017
+227,Seed,"Computer Vision, Consumer Electronics, Navigation, Robotics","124,698",,Active,1-10,Seed,,2015
+228,None,"Artificial Intelligence, Information Technology, Internet of Things, Machine Learning, Robotics","120,740",,Active,11-50,,,2017
+229,None,"Automotive, Consumer Electronics, Information Technology, Logistics, Robotics, Virtual Reality","124,811",Less than $1M,Active,,,,2015
+230,None,"Industrial Automation, Machine Learning, Robotics","125,710",$10M to $50M,Active,251-500,,,2001
+231,None,"Hardware, Robotics, Software","124,484",$1M to $10M,Active,11-50,,,2006
+232,None,"Artificial Intelligence, Computer, Information Technology, Robotics","123,593",,Active,1-10,,,2016
+233,None,"Artificial Intelligence, Communications Infrastructure, Embedded Systems, Information Technology, Machine Learning, Optical Communication, Software","128,099",,Closed,1-10,,,2011
+234,None,"Artificial Intelligence, Big Data, Information Technology, Machine Learning, Robotics, Software","127,777",,Active,1-10,,,2017
+235,None,"Logistics, Packaging Services, Robotics","130,326",,Active,,,,None
+236,None,"Agriculture, AgTech, Artificial Intelligence, Cannabis, Farming, Internet of Things, Robotics","128,506",,Active,1-10,,,2018
+237,None,"Artificial Intelligence, Cloud Computing, Enterprise Software, Machine Learning","134,540",$1M to $10M,Active,11-50,,,2009
+238,Seed,"Air Transportation, B2B, B2C, Delivery, Drone Management, Drones, Information Technology, Internet of Things, Robotics","132,654",,Active,1-10,Seed,,2015
+240,None,"Consulting, Drones, E-Commerce, Education, Health Care, Information Technology, Machine Learning, Quality Assurance, Robotics, Software","130,431",,Active,51-100,,,2017
+241,None,"Artificial Intelligence, Robotics","131,449",Less than $1M,Active,,,,2017
+242,None,"Education, Machine Learning, Robotics","135,776",Less than $1M,Active,1-10,,,2015
+243,None,Robotics,"133,998",,Active,1-10,,,2010
+244,None,"Education, Machine Learning, Robotics","135,090",,Active,,,,None
+245,None,"Artificial Intelligence, Big Data, Cloud Data Services, Machine Learning, Robotics","137,406",$1M to $10M,Active,11-50,,,2008
+246,None,"Automotive, Autonomous Vehicles, Machine Learning","136,526",,Active,,,,None
+247,None,"Consumer Electronics, Information Technology, Machine Learning, Robotics","137,887",,Active,,,,2017
+248,Venture - Series Unknown,"Artificial Intelligence, Big Data, Machine Learning, Robotics, Software","140,154",$1M to $10M,Active,11-50,,1302515.0,2001
+249,None,"Asset Management, Enterprise Software, Industrial, Industrial Automation, Machine Learning, Predictive Analytics, Risk Management, Robotics","141,126",$1M to $10M,Active,101-250,,,2016
+250,None,"Artificial Intelligence, Autonomous Vehicles, CRM, Information Technology, Internet of Things, Machine Learning, Robotics","139,599",,Active,1-10,,,2018
+251,None,"Artificial Intelligence, Big Data, Logistics, Machine Learning, Predictive Analytics, Robotics, Supply Chain Management","143,462",,Active,11-50,,,2015
+252,None,"Advertising, Artificial Intelligence, Automotive, Computer Vision, Education, Electronics, Fitness, Gaming, Health Diagnostics, Home Health Care, Hospitality, Human Resources, Identity Management, Internet of Things, Machine Learning, Media and Entertainment, Medical, Personal Health, Physical Security, Public Safety, Retail Technology, Robotics, Smart Building, Smart Home, Sports, Transportation, Wellness","143,961",,Active,,,,2018
+253,None,"Machine Learning, Robotics","145,234",,Active,1-10,,,2018
+254,None,"Information Technology, Internet, iOS, Mobile Apps, Robotics, Software, Web Development","145,787",Less than $1M,Active,1-10,,,2011
+255,None,"Artificial Intelligence, Big Data, Health Care, Machine Learning, Medical Device, Robotics, Software, Wearables","148,022",,Active,1-10,,,2015
+256,None,Education,"145,110",$10M to $50M,Active,11-50,,,2014
+257,None,Quantum Computing,"150,794",,Active,11-50,,,2018
+258,None,"Artificial Intelligence, Augmented Reality, Human Computer Interaction, Machine Learning, Virtual Reality, Wearables","146,083",,Active,1-10,,,2014
+259,Seed,"Analytics, Artificial Intelligence, Big Data, Consumer Electronics, Information Technology, Machine Learning, Software","150,140",,Active,1-10,Seed,,2018
+260,None,"Artificial Intelligence, Assistive Technology, Electronics, Machine Learning, Robotics","146,326",,Active,1-10,,,2015
+261,None,"Analytics, Biotechnology, CRM, Database, Human Resources, Information Technology, Machine Learning, Marketing, Robotics, Software","146,474",$10M to $50M,Active,11-50,,,2005
+262,None,"Machine Learning, Medical, Robotics, Therapeutics","147,703",,Active,1-10,,,2016
+263,None,"Machine Learning, Manufacturing, Robotics","153,422",Less than $1M,Active,11-50,,,2001
+264,None,"Artificial Intelligence, Cyber Security, Information Technology, Robotics, Security, Staffing Agency","153,621",$1M to $10M,Active,11-50,,,2011
+265,None,"Artificial Intelligence, Content, Corporate Training, Drones, EdTech, Education, Event Management, Events, Innovation Management, Machine Learning, Robotics, STEM Education, Training","153,874",,Active,11-50,,,2001
+266,Seed,"EdTech, Education, Hardware, Health Care, Machine Learning, Robotics, Software, Speech Recognition, UX Design","153,270",,Active,,Seed,,2016
+267,None,"Aerospace, Artificial Intelligence, Drones, Information Technology, Robotics, Video","145,998",$1M to $10M,Active,11-50,,,2015
+268,None,"Human Resources, Information Technology, Machine Learning, Robotics, Small and Medium Businesses, Software","152,311",$1M to $10M,Active,11-50,,,2010
+269,None,"Artificial Intelligence, Big Data, Internet of Things, Machine Learning, Real Time","145,083",,Active,11-50,,,2016
+270,None,"3D Printing, Aerospace, Artificial Intelligence, Cyber Security, Energy, Machine Learning, Medical, Nanotechnology, Quantum Computing, Sensor","160,282",,Active,10001+,,,1976
+271,None,"Artificial Intelligence, Beauty, Big Data, Cosmetics, Machine Learning","158,274",,Active,1-10,,,2017
+272,None,"Big Data, Information Technology, Machine Learning, Robotics, Software","162,858",,Active,1-10,,,2016
+273,None,"Apps, Blockchain, Information Technology, Machine Learning, Mobile Apps","149,299",,Active,11-50,,,2010
+274,None,"Advertising, E-Commerce, Internet, Robotics, Telecommunications","155,828",,Active,1-10,,,2019
+275,None,"Computer Vision, Machine Learning, Robotics, Software","158,631",,Active,1-10,,,None
+276,None,"Artificial Intelligence, Machine Learning, Robotics, Software","167,887",,Active,,,,None
+277,Seed,"Artificial Intelligence, Computer Vision, Information Technology, Machine Learning, Robotics, Software","165,747",,Active,1-10,M&A,,2013
+278,Seed,"Artificial Intelligence, Machine Learning, Robotics","172,011",,Active,,Seed,,2017
+279,None,"Cloud Computing, Cloud Infrastructure, Cloud Management, Enterprise Software, Information Technology, Machine Learning, SaaS, Simulation, Software","171,107",,Active,,,,2017
+280,Seed,"Artificial Intelligence, Computer Vision, Internet of Things, Machine Learning, Robotics, Sensor, Software","174,612",,Closed,1-10,Seed,,2015
+281,None,"Amusement Park and Arcade, Artificial Intelligence, Machine Learning, Robotics","165,188",,Active,,,,—
+282,None,"Analytics, Artificial Intelligence, Information Technology, Internet, Machine Learning, Retail, Robotics, Small and Medium Businesses, Software","173,130",,Active,1-10,,,2018
+283,None,"Artificial Intelligence, Computer Vision, Manufacturing, Robotics","177,135",Less than $1M,Active,1-10,,,2015
+284,Seed,"Aerospace, Robotics","174,617",,Active,1-10,Seed,,2018
+285,Non-equity Assistance,"Big Data, Information Technology, Machine Learning, Robotics, Wearables","165,252",,Active,1-10,,,2017
+286,None,"Artificial Intelligence, Asset Management, Business Intelligence, Fleet Management, Industrial, Industrial Automation, Industrial Design, Industrial Engineering, Industrial Manufacturing, Intelligent Systems, Machine Learning, Machinery Manufacturing, Manufacturing, Predictive Analytics, Product Design, Robotics","171,235",,Active,1-10,,,2014
+287,None,"Artificial Intelligence, Blockchain, Robotics, Telecommunications, Unified Communications, VoIP","168,481",,Active,51-100,,,1999
+288,None,"Artificial Intelligence, Intelligent Systems, Machine Learning, Manufacturing, Robotics","171,484",,Active,,,,2016
+289,None,"Consulting, Consumer Lending, Finance, Information Technology, Lending, PaaS, Payments, SaaS","208,864",,Active,11-50,,,2018
+290,Series A,"Artificial Intelligence, Machine Learning, Robotics","178,396",,Active,,Early Stage Venture,,2016
+291,Non-equity Assistance,"Big Data, Enterprise Software, Information Technology, Machine Learning, Mobile, Robotics, SaaS, Small and Medium Businesses","177,232",,Active,1-10,,,2016
+292,None,"Apps, Artificial Intelligence, Internet of Things, Machine Learning, Mobile, Natural Language Processing, Robotics","187,712",$1M to $10M,Active,11-50,,,2016
+293,None,"Artificial Intelligence, Electronics, Embedded Systems, Information Technology, Machine Learning","177,206",$1M to $10M,Active,1-10,,,2013
+294,None,"Artificial Intelligence, Big Data, Natural Language Processing","179,590",,Active,1-10,,,2017
+295,None,"Artificial Intelligence, Blockchain, Computer Vision, Drones, Financial Exchanges, FinTech, Internet of Things, Machine Learning, Software","171,617",$1M to $10M,Active,1-10,,,2009
+296,None,"Analytics, Financial Services, FinTech, Machine Learning, Robotics","179,297",,Active,,,,2014
+297,None,"CRM, Information Technology, Machine Learning, Robotics","182,235",Less than $1M,Active,101-250,,,None
+298,None,"Artificial Intelligence, Computer Vision, Internet of Things, Machine Learning, Predictive Analytics, Robotics","181,404",,Active,11-50,,,2017
+299,None,"Food Delivery, Machine Learning, Robotics","185,060",$1M to $10M,Active,,,,2006
+300,None,"Artificial Intelligence, Business Intelligence, Consulting, Information Technology, Machine Learning, Robotics, Software","184,984",,Active,11-50,,,2018
+301,None,"Artificial Intelligence, Industrial Automation, Industrial Manufacturing, Machine Learning, Manufacturing, Robotics","192,124",,Active,1-10,,,2011
+302,None,"Computer Vision, Machine Learning, Robotics, Software","178,432",,Active,11-50,,,2015
+303,None,"Industrial Engineering, Mechanical Engineering, Robotics","187,972",Less than $1M,Active,1-10,,,2014
+304,None,"Big Data, Education, Information Technology, Internet, Machine Learning, Robotics, Software","180,625",,Active,1-10,,,2012
+305,None,"AgTech, Blockchain, Environmental Engineering, Golf, Hospitality, Humanitarian, Internet of Things, Machine Learning, Retail, Robotics","182,496",,Active,101-250,,,2018
+306,Angel,"Artificial Intelligence, Robotics","189,047",,Active,1-10,Seed,,2015
+307,None,"Health Care, Machine Learning, Robotics","188,931",,Active,1-10,,,2018
+308,None,"Accounting, Enterprise Software, Machine Learning, Robotics, SaaS","194,930",,Active,1-10,,,2014
+309,None,"3D Printing, Artificial Intelligence, Big Data, Blockchain, Industrial Automation, Industrial Manufacturing, Internet of Things, Machine Learning","185,151",,Active,1-10,,,2017
+310,None,"Analytics, Big Data, Machine Learning, Robotics, Software","170,959",,Active,11-50,,,1989
+311,None,"Artificial Intelligence, Information Technology, Machine Learning, Robotics, Software","190,755",,Active,,,,2017
+312,None,"Machine Learning, Manufacturing, Robotics","196,680",$1B to $10B,Active,,,,1928
+313,None,"Artificial Intelligence, Machine Learning, Natural Language Processing, Robotics","201,788",,Active,1-10,,,2018
+314,None,"Analytics, Big Data, Biotechnology, Health Care, Information Technology, Machine Learning, Robotics","206,377",,Active,1-10,,,2017
+315,Venture - Series Unknown,"Artificial Intelligence, Cloud Data Services, Commercial Real Estate, Computer, Cyber Security, Data Visualization, Internet of Things, Machine Learning, Predictive Analytics, Robotics","187,188",,Active,1-10,,,2014
+316,None,"Embedded Software, Embedded Systems, Hardware, Internet of Things, Outsourcing, Robotics, Service Industry, Software Engineering","201,318",,Active,11-50,,,2013
+317,None,"Industrial, Machine Learning, Robotics","201,666",Less than $1M,Active,,,,None
+318,None,"Artificial Intelligence, Information Technology, Machine Learning, Robotics","199,341",,Active,1-10,,,2018
+319,None,"Big Data, Information Technology, Machine Learning, Robotics, Software","197,438",$10M to $50M,Active,,,,None
+320,None,"Industrial, Machine Learning, Robotics","214,920",Less than $1M,Active,1-10,,,2015
+321,None,"Artificial Intelligence, Computer Vision, Consumer Electronics, Drones, Information Technology, Machine Learning, Robotics, Software","208,667",,Active,1-10,,,2015
+322,None,"Artificial Intelligence, Computer, Information Technology, Robotics, Software","212,177",,Active,1-10,,,2016
+323,None,"Artificial Intelligence, Automotive, Machine Learning, Manufacturing, Robotics, Software","213,679",$1M to $10M,Active,1-10,,,2014
+324,None,"Analytics, CRM, FinTech, Information Technology, Robotics","196,142",,Active,1-10,,,2011
+325,None,"Machine Learning, Machinery Manufacturing, Robotics","199,523",Less than $1M,Active,1-10,,,2010
+326,None,"Analytics, Artificial Intelligence, Big Data, Business Intelligence, Consulting, Data Visualization, Machine Learning, Predictive Analytics","200,645",,Active,,,,2018
+327,None,"Information Services, Information Technology, Machine Learning, Robotics","208,092",Less than $1M,Active,11-50,,,2014
+328,None,"Artificial Intelligence, Cloud Data Services, Industrial Automation, Machine Learning, Machinery Manufacturing, Robotics, SaaS, Software","197,075",Less than $1M,Active,1-10,,,2017
+329,None,"Advertising, Consulting, Information Technology, Internet of Things, Mobile Apps, Publishing, Robotics","215,150",,Active,1-10,,,2015
+330,None,"Artificial Intelligence, Autonomous Vehicles, Computer Vision, Facial Recognition, Motion Capture, Software","218,167",,Active,11-50,,,2018
+331,None,"Artificial Intelligence, Robotics, Software","208,552",,Active,1-10,,,2011
+332,None,"Artificial Intelligence, Big Data, Intelligent Systems, Machine Learning, Natural Language Processing, Predictive Analytics, Robotics","220,461",,Active,1-10,,,2016
+333,None,Biotechnology,"208,278",,Active,1-10,,,2016
+334,None,"Analytics, Artificial Intelligence, Education, Robotics, Software","195,803",,Active,,,,None
+335,None,"Agriculture, Analytics, Artificial Intelligence, Internet, Robotics, Software","228,069",,Active,1-10,,,2017
+336,None,"Big Data, Information Technology, Machine Learning, Robotics, Software","217,670",Less than $1M,Active,101-250,,,None
+337,None,"Artificial Intelligence, Robotics, Software","215,861",$1M to $10M,Active,,,,2011
+338,None,"Agriculture, AgTech, Artificial Intelligence, Farming, Machine Learning, Robotics","222,589",,Active,1-10,,,2017
+339,None,"Angel Investment, Artificial Intelligence, Big Data, Business Development, Database, Machine Learning, Marketplace, Mobile Apps, Robotics, Web Development","220,443",,Active,1-10,,,2017
+340,None,"Artificial Intelligence, Machine Learning, Robotics, Software","228,432",,Active,1-10,,,2017
+341,None,"Big Data, Information Technology, Machine Learning, Robotics","223,965",$10M to $50M,Active,101-250,,,None
+342,None,"Artificial Intelligence, Information Technology, Machine Learning, Robotics","218,250",,Active,1-10,,,2018
+343,None,"Artificial Intelligence, Machine Learning","239,186",$1M to $10M,Active,1-10,,,2015
+344,None,"Artificial Intelligence, Cloud Computing, Information Technology, Machine Learning, Robotics, Security, Software","242,477",,Active,1-10,,,2018
+345,None,"Advanced Materials, Artificial Intelligence, Intelligent Systems, Mechanical Design, Mechanical Engineering, Neuroscience, Robotics","226,093",,Closed,1-10,M&A,,2009
+346,None,"Analytics, Artificial Intelligence, Information Technology, Recruiting","237,306",,Active,1-10,,,2017
+347,None,"Agriculture, Artificial Intelligence, Automotive, Big Data, Machine Learning, Robotics, Transportation","238,790",Less than $1M,Active,1-10,,,2017
+348,None,"Life Science, Machine Learning, Robotics","238,916",,Active,,,,2013
+349,None,"Artificial Intelligence, Autonomous Vehicles, Computer Vision, Internet of Things, Machine Learning, Robotics, Service Industry","230,175",,Active,1-10,,,2018
+350,None,"Artificial Intelligence, Computer, Machine Learning, Robotics","243,235",Less than $1M,Active,,,,2015
+351,None,"Artificial Intelligence, Computer, Information Technology, Machine Learning, Robotics, Software","245,664",,Active,,,,None
+352,None,"Artificial Intelligence, Bioinformatics, Life Science, Machine Learning, Neuroscience, Robotics","251,323",,Active,,,,None
+353,None,"Blockchain, Consulting, Information Technology, Robotics","244,432",,Active,1-10,,,2016
+354,None,"Analytics, Big Data, Information Technology, Machine Learning, Robotics, Software","256,460",,Active,1-10,,,2016
+355,None,"Artificial Intelligence, Communities, Developer Tools, Machine Learning, Robotics","238,041",Less than $1M,Active,1-10,,,2012
+356,None,"Artificial Intelligence, Information Technology, Robotics","265,228",,Closed,1-10,,,None
+357,None,"Artificial Intelligence, Intelligent Systems, Machine Learning, Predictive Analytics, Robotics","252,963",,Active,1-10,,,None
+358,None,"Artificial Intelligence, Hardware, Information Technology, Machine Learning, Robotics","242,159",,Active,1-10,,,2018
+359,None,"Robotics, Software","254,844",Less than $1M,Active,1-10,,,2014
+360,None,"Artificial Intelligence, Information Technology, Machine Learning, Robotics, Software","244,514",Less than $1M,Active,11-50,,,2013
+361,None,"CRM, Information Technology, Robotics, Security, Software","267,123",,Active,,,,None
+362,None,"Machine Learning, Robotics, SEO, Software","259,067",Less than $1M,Active,1-10,,,2009
+363,None,"Artificial Intelligence, Banking, Information Technology, Robotics, Software","272,212",,Active,,,,2016
+364,None,"Artificial Intelligence, Industrial Automation, Machine Learning, Manufacturing, Robotics","250,501",,Active,11-50,,,2015
+365,None,"Artificial Intelligence, Computer Vision, Machine Learning, Software","275,407",,Active,1-10,,,2017
+366,None,"Machine Learning, Robotics, Software","262,449",,Active,,,,2015
+367,None,"Artificial Intelligence, Machine Learning, Social Impact","274,265",$1M to $10M,Active,1-10,,,2009
+368,None,"Artificial Intelligence, Education, Machine Learning, Robotics","251,573",,Active,,,,2010
+369,None,"Machine Learning, Manufacturing, Robotics","295,723",$1M to $10M,Active,101-250,,,2000
+370,None,"Product Management, Service Industry","283,570",,Active,,,,2000
+371,None,"Artificial Intelligence, Information Technology, Machine Learning, Robotics, Software","292,324",,Active,11-50,,,2018
+372,Venture - Series Unknown,"Artificial Intelligence, Business Intelligence, Consumer Electronics, CRM, Information Technology, Machine Learning, Manufacturing, Robotics, Software","306,901",,Active,,M&A,4262424.0,2000
+373,None,"Artificial Intelligence, Human Resources, Information Technology, Machine Learning, Robotics","318,084",,Active,1-10,,,2018
+374,None,"Artificial Intelligence, Machine Learning, Robotics","309,035",,Active,,,,None
+375,None,"Aerospace, Artificial Intelligence, CRM, Information Technology, Machine Learning, Robotics, Sensor","303,982",,Active,11-50,,,2013
+376,None,"Artificial Intelligence, Big Data, Education, Information Technology, Machine Learning, Robotics, Software","320,804",Less than $1M,Active,10001+,,,None
+377,None,"Education, Machine Learning, Robotics","274,979",,Active,1-10,,,2018
+378,None,"Analytics, Artificial Intelligence, Internet, Machine Learning, Robotics, Software","295,947",,Active,,,,None
+379,None,"Artificial Intelligence, Consumer Goods, Drones, Information Technology, Machine Learning, Manufacturing, Robotics","316,154",Less than $1M,Active,1-10,,,2015
+380,None,"Analytics, Education, Information Technology, Robotics","300,316",,Active,,,,2017
+381,None,Consulting,"286,511",,Active,,,,2017
+382,None,"Life Science, Machine Learning, Robotics","286,538",,Active,1-10,,,2016
+383,None,"Artificial Intelligence, E-Learning, Machine Learning, Robotics, Video Conferencing","306,913",,Active,1-10,,,2016
+384,None,"Artificial Intelligence, Assistive Technology, Digital Marketing, Drones, Information Technology, Machine Learning, Robotics, Social Media Advertising, Social Media Management, Web Apps, Web Development","284,577",,Active,251-500,,,2018
+385,None,"Consumer Electronics, Fitness, Hardware, Health Insurance, Home Health Care, Machine Learning, Robotics","332,186",,Active,1-10,,,2017
+386,None,"Analytics, Big Data, CRM, Information Technology, Machine Learning, Robotics","312,127",,Closed,11-50,,,None
+387,None,"Analytics, Computer, Finance, FinTech, Information Technology, Machine Learning, Robotics","291,957",,Active,,,,None
+388,None,"Computer Vision, Machine Learning, Robotics","328,931",,Closed,1-10,,,2014
+389,None,"Machine Learning, Robotics","317,056",,Active,,,,None
+390,Grant,"Artificial Intelligence, Events, Hospitality, Machine Learning, Retail, Retail Technology, Robotics","387,723",,Active,1-10,Seed,,2015
+391,None,"Artificial Intelligence, Business Development, Business Information Systems, Business Intelligence, Information Technology, Machine Learning, Robotics, Software","311,512",Less than $1M,Active,11-50,,,2009
+392,None,"Artificial Intelligence, Information Technology, Robotics, Software","336,546",,Active,,,,None
+393,None,"Big Data, Information Technology, Internet, Machine Learning, Robotics, Software","321,375",,Active,1-10,,,2016
+394,None,"E-Learning, Human Computer Interaction, Machine Learning, Robotics, Software","344,554",,Active,,,,None
+395,None,"Artificial Intelligence, Augmented Reality, Computer Vision, Human Resources, Machine Learning, Recruiting, Robotics","327,410",,Active,,,,None
+396,None,"Developer Platform, Manufacturing, Robotics","330,553",,Active,,,,None
+397,None,"Artificial Intelligence, Education, Machine Learning, Robotics, Software","304,456",Less than $1M,Active,,,,None
+398,None,"Artificial Intelligence, Computer Vision, Machine Learning, Robotics","332,498",,Active,1-10,,,2009
+399,None,"Artificial Intelligence, Machine Learning, Manufacturing, Robotics","315,325",,Active,11-50,,,None
+400,None,"Machine Learning, Manufacturing, Robotics","356,875",,Active,1-10,,,2009
+401,None,"Machine Learning, Robotics, Simulation","356,888",$1M to $10M,Active,11-50,,,2004
+402,None,"3D Printing, Artificial Intelligence, Augmented Reality, Autonomous Vehicles, Biotechnology, Blockchain, Corporate Training, Education, Internet of Things, Machine Learning, Nanotechnology, Robotics, Virtual Reality","329,098",,Active,1-10,,,2018
+403,None,"Artificial Intelligence, Mobile Apps, Mobile Payments","359,349",$1M to $10M,Active,,,,2015
+404,None,"Analytics, Information Technology, Machine Learning, Robotics, Software","390,505",,Active,,,,2015
+405,Angel,"Artificial Intelligence, Education, Robotics","392,811",,Active,,Seed,,None
+406,None,Machine Learning,"394,229",,Active,1-10,,,None
+407,None,"Artificial Intelligence, Big Data, Events, Social Media","448,548",Less than $1M,Active,,,,None
+408,None,"Artificial Intelligence, Computer, Information Technology, Machine Learning, Robotics, Software","399,199",,Active,,,,None
+409,None,"Industrial Automation, Machine Learning, Marine Technology, Mechanical Engineering","431,946",Less than $1M,Active,,,,None
+410,None,"Artificial Intelligence, Consulting, Machine Learning, Robotics","418,182",,Active,,,,2014
+411,None,"Artificial Intelligence, Health Care","409,074",,Active,,,,None
+412,None,Machine Learning,"434,295",,Active,,,,None
+413,None,Text Analytics,"413,903",$1M to $10M,Active,1-10,,,None
+414,None,"Artificial Intelligence, Computer, CRM, Information Technology, Robotics","397,118",Less than $1M,Active,1-10,,,2016
+415,None,"Big Data, E-Commerce, Information Technology, Internet, Robotics","372,772",,Active,1-10,,,2017
+416,None,"Artificial Intelligence, Information Technology, Machine Learning, Web Development","434,102",,Active,11-50,,,2016
+417,None,"Association, Biotechnology, Communities, Education, Events, Robotics","383,194",,Active,,,,None
+418,None,"Artificial Intelligence, Information Technology, Robotics, Software","429,689",,Active,,,,None
+419,None,Market Research,"397,615",Less than $1M,Active,,,,1989
+420,None,"Electronics, Embedded Software, Embedded Systems, Industrial Automation, Machine Learning, Mechanical Design, Robotics","379,345",,Active,,,,1994
+421,None,"Analytics, Artificial Intelligence, Consulting, Information Technology, Machine Learning, Robotics, Software","421,635",$1M to $10M,Active,51-100,,,None
+422,None,"Artificial Intelligence, Association, Machine Learning, Robotics","359,751",$1M to $10M,Active,,,,2011
+423,None,"Artificial Intelligence, Blockchain, Communities, Cryptocurrency, Information Technology, Internet, Machine Learning, Robotics, Software","385,476",,Active,,,,None
+424,None,"AgTech, Machine Learning, Robotics, Software","468,275",,Active,1-10,,,None
+425,None,"Analytics, Information Technology, Machine Learning, Robotics, Software","492,663",,Closed,11-50,,,2001
+426,None,Artificial Intelligence,"477,937",,Active,,,,None
+427,None,"Information Technology, Machine Learning, Robotics","502,928",,Active,,,,None
+428,None,"Artificial Intelligence, Electronics, Machine Learning, Robotics","448,373",$10M to $50M,Active,101-250,,,2009
+429,None,"Artificial Intelligence, Machine Learning, Robotics","482,641",,Active,1-10,,,None
+430,None,"Advertising, Digital Marketing, Machine Learning, Marketing, Robotics, Software","498,277",,Active,,,,None
+431,None,"Big Data, Information Technology, Machine Learning, Robotics, Software","501,751",,Closed,1-10,,,2016
+432,Series A,"Artificial Intelligence, Machine Learning, Robotics","525,819",,Active,,Early Stage Venture,,None
+433,None,"Analytics, Big Data, CRM, Information Technology, Robotics, Software","484,276",,Active,,,,1996
+434,None,"Computer, Machine Learning, Robotics","571,298",$1M to $10M,Active,1-10,,,2011
+435,None,"Machine Learning, Manufacturing, Robotics","558,657",,Active,,,,1986
+436,None,"Analytics, Artificial Intelligence, Information Technology, Robotics, Software","556,055",Less than $1M,Active,1-10,,,2015
+437,None,"Artificial Intelligence, Big Data, Education, Robotics","532,431",,Active,,,,None
+438,None,"Artificial Intelligence, Computer, Education, Robotics","576,709",,Active,,,,2016
+439,None,"Analytics, Artificial Intelligence, Employment, Information Technology, Search Engine","605,122",$1M to $10M,Active,1-10,,,2010
