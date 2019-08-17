@@ -178,18 +178,17 @@ lda_model = LatentDirichletAllocation(n_components=n_topics, learning_method='on
 lda_topic_matrix = lda_model.fit_transform(small_document_term_matrix)
 
 
-'''
-tsne_lsa_model = TSNE(n_components=2, perplexity=50, learning_rate=100,
-                        n_iter=2000, verbose=1, random_state=0, angle=0.75)
-tsne_lsa_vectors = tsne_lsa_model.fit_transform(lsa_topic_matrix)
-# Define helper functions
 def get_mean_topic_vectors(keys, two_dim_vectors):
+    '''
+    returns a list of centroid vectors from each predicted topic category
+    '''
     mean_topic_vectors = []
     for t in range(n_topics):
         articles_in_that_topic = []
         for i in range(len(keys)):
             if keys[i] == t:
                 articles_in_that_topic.append(two_dim_vectors[i])
+
         articles_in_that_topic = np.vstack(articles_in_that_topic)
         mean_article_in_that_topic = np.mean(articles_in_that_topic, axis=0)
         mean_topic_vectors.append(mean_article_in_that_topic)
@@ -200,25 +199,19 @@ colormap = np.array([
     "#8c564b", "#c49c94", "#e377c2", "#f7b6d2", "#7f7f7f",
     "#c7c7c7", "#bcbd22", "#dbdb8d", "#17becf", "#9edae5" ])
 colormap = colormap[:n_topics]
+
 tsne_lda_model = TSNE(n_components=2, perplexity=50, learning_rate=100,
                         n_iter=2000, verbose=1, random_state=0, angle=0.75)
 tsne_lda_vectors = tsne_lda_model.fit_transform(lda_topic_matrix)
+
 top_3_words_lda = get_top_n_words(3, lda_keys, small_document_term_matrix, small_count_vectorizer)
 lda_mean_topic_vectors = get_mean_topic_vectors(lda_keys, tsne_lda_vectors)
+
 plot = figure(title="t-SNE Clustering of {} LDA Topics".format(n_topics), plot_width=700, plot_height=700)
 plot.scatter(x=tsne_lda_vectors[:,0], y=tsne_lda_vectors[:,1], color=colormap[lda_keys])
+
 for t in range(n_topics):
     label = Label(x=lda_mean_topic_vectors[t][0], y=lda_mean_topic_vectors[t][1],
                   text=top_3_words_lda[t], text_color=colormap[t])
     plot.add_layout(label)
 show(plot)
-top_3_words_lda = get_top_n_words(3, lda_keys, small_document_term_matrix, small_count_vectorizer)
-lda_mean_topic_vectors = get_mean_topic_vectors(lda_keys, tsne_lda_vectors)
-plot = figure(title="t-SNE Clustering of {} LDA Topics".format(n_topics), plot_width=700, plot_height=700)
-plot.scatter(x=tsne_lda_vectors[:,0], y=tsne_lda_vectors[:,1], color=colormap[lda_keys])
-for t in range(n_topics):
-    label = Label(x=lda_mean_topic_vectors[t][0], y=lda_mean_topic_vectors[t][1],
-                  text=top_3_words_lda[t], text_color=colormap[t])
-    plot.add_layout(label)
-    show(plot)
-'''

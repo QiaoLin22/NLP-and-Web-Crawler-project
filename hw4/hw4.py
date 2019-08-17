@@ -121,5 +121,5 @@ def hw4_handler(event):
     url_exam = 'http://registrar.emory.edu/faculty-staff/exam-schedule/spring-2019.html'
     url_class = 'http://atlas.college.emory.edu/class-schedules/spring-2019.php'
 
-    return print_exam_schedule([id])
+    return print_exam_schedule(id)
 

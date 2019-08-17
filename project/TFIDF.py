@@ -30,8 +30,11 @@ original_words = ['caresses', 'flies', 'dies', 'mules', 'denied','died', 'agreed
            'traditional', 'reference', 'colonizer','plotted']
 singles = [stemmer.stem(plural) for plural in original_words]
 pd.DataFrame(data = {'original word': original_words, 'stemmed': singles})
+lemmatizer = WordNetLemmatizer()
 def lemmatize_stemming(text):
-    return stemmer.stem(WordNetLemmatizer().lemmatize(text, pos='v'))
+    return lemmatizer.lemmatize(text, pos='v')
+
+
 
 def preprocess(text):
     result = []
