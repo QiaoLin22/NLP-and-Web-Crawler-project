@@ -13,7 +13,7 @@ from nltk.corpus import stopwords
 
 
 
-comment = pd.read_csv('/Users/Tim/PycharmProjects/qiao/project/dataframe2.csv')
+comment = pd.read_csv('/Users/Tim/PycharmProjects/qiao/NLPmodel/dataframe2.csv')
 
 a = []
 for k in comment.values:
